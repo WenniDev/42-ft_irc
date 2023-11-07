@@ -1,0 +1,12 @@
+#ifndef TCP_IPV4_HPP
+#define TCP_IPV4_HPP
+
+#include "./incs/defines.hpp"
+#include "./incs/Socket.hpp"
+#include "./incs/PSocket.hpp"
+#include "./incs/ASocket.hpp"
+#include "./incs/Server.hpp"
+#include "./incs/SocEvent.hpp"
+#include "./incs/Error.hpp"
+
+#endif

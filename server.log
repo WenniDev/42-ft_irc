@@ -1,0 +1,93 @@
+[07-10-0123 at 14:17:19] server miniRC created
+[07-10-0123 at 14:17:19] server miniRC up
+[07-10-0123 at 14:18:04] new connection to [localhost:51262] on socket 6
+[07-10-0123 at 14:18:04] command from [localhost:51262]:
+CAP LS
+[07-10-0123 at 14:18:04] command from [localhost:51262]:
+PASS pwd
+[07-10-0123 at 14:18:04] command from [localhost:51262]:
+NICK raph
+[07-10-0123 at 14:18:04] command from [localhost:51262]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 14:18:04] command from [localhost:51262]:
+MODE raph +i
+[07-10-0123 at 14:18:07] command from [localhost:51262]:
+PING miniRC
+[07-10-0123 at 14:18:07] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 14:18:34] new connection to [localhost:40460] on socket 7
+[07-10-0123 at 14:18:34] command from [localhost:40460]:
+CAP LS
+[07-10-0123 at 14:18:34] command from [localhost:40460]:
+PASS pwd
+[07-10-0123 at 14:18:34] command from [localhost:40460]:
+NICK raph2
+[07-10-0123 at 14:18:34] command from [localhost:40460]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 14:18:34] command from [localhost:40460]:
+MODE raph2 +i
+[07-10-0123 at 14:18:37] command from [localhost:40460]:
+PING miniRC
+[07-10-0123 at 14:18:37] reply from server miniRC to raph2: 
+:miniRC PONG miniRC :raph2
+
+[07-10-0123 at 14:19:08] command from [localhost:51262]:
+PING miniRC
+[07-10-0123 at 14:19:08] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 14:19:09] command from [localhost:40460]:
+QUIT :leaving
+[07-10-0123 at 14:19:09] closing connection to [localhost:40460] on socket 7
+[07-10-0123 at 14:19:21] new connection to [localhost:58306] on socket 7
+[07-10-0123 at 14:19:45] command from [localhost:58306]:
+PASS pwd
+[07-10-0123 at 14:19:56] command from [localhost:58306]:
+NICK avast
+[07-10-0123 at 14:20:09] command from [localhost:51262]:
+PING miniRC
+[07-10-0123 at 14:20:09] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 14:21:19] server miniRC down
+[07-10-0123 at 14:22:59] server miniRC created
+[07-10-0123 at 14:22:59] server miniRC up
+[07-10-0123 at 14:23:04] new connection to [localhost:51502] on socket 6
+[07-10-0123 at 14:23:04] command from [localhost:51502]:
+CAP LS
+[07-10-0123 at 14:23:04] command from [localhost:51502]:
+PASS pwd
+[07-10-0123 at 14:23:04] command from [localhost:51502]:
+NICK raph
+[07-10-0123 at 14:23:04] command from [localhost:51502]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 14:23:04] command from [localhost:51502]:
+MODE raph +i
+[07-10-0123 at 14:23:04] new connection to [localhost:51512] on socket 7
+[07-10-0123 at 14:23:07] command from [localhost:51502]:
+PING miniRC
+[07-10-0123 at 14:23:07] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 14:23:13] command from [localhost:51502]:
+QUIT :leaving
+[07-10-0123 at 14:23:13] closing connection to [localhost:51502] on socket 6
+[07-10-0123 at 14:23:27] command from [localhost:51512]:
+PASS pwd
+[07-10-0123 at 14:24:20] server miniRC down
+[07-10-0123 at 14:30:31] server miniRC created
+[07-10-0123 at 14:30:31] server miniRC up
+[07-10-0123 at 14:30:37] new connection to [localhost:59400] on socket 6
+[07-10-0123 at 14:30:49] command from [localhost:59400]:
+PASS pwd
+[07-10-0123 at 14:31:07] command from [localhost:59400]:
+NICK avast
+[07-10-0123 at 14:31:46] server miniRC down
+[07-10-0123 at 14:57:04] server miniRC created
+[07-10-0123 at 14:57:04] server miniRC up
+[07-10-0123 at 14:59:24] server miniRC down
+[07-10-0123 at 14:59:28] server miniRC created
+[07-10-0123 at 14:59:34] server miniRC created
+[07-10-0123 at 14:59:34] server miniRC up
+[07-10-0123 at 15:00:30] server miniRC down
