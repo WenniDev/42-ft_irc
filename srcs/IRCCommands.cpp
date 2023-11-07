@@ -19,10 +19,10 @@ void	IRCServer::passCmd(User* user, Message& msg)
 void	IRCServer::nickCmd(User* user, Message& msg)
 {
 	// Parsing - throw exception
-	if (!(user->m_authentified)) {
-		Message emptyMsg;
-		passCmd(user, emptyMsg);
-	}
+	// if (!(user->m_authentified)) {
+	// 	Message emptyMsg;
+	// 	passCmd(user, emptyMsg);
+	// }
 	if (!msg.m_args.size())
 		throw CmdError(ERR_NONICKNAMEGIVEN, user);
 	checkNickFormat(msg.m_args[0], user);
@@ -38,6 +38,7 @@ void	IRCServer::nickCmd(User* user, Message& msg)
 	m_mapUser.erase(user->m_nick);
 	user->m_nick = msg.m_args[0];
 	m_mapUser[msg.m_args[0]] = user;
+	user->m_registered = true;
 }
 
 
@@ -114,7 +115,7 @@ void	IRCServer::joinCmd(User* user, Message& msg)
 				writeToClient(user, m_name, buildReply(user, ERR_BADCHANNELKEY, channel->m_name));
 				continue;
 			}
-			if (channel->m_maxUsers >= static_cast<int>(channel->m_users.size())) {
+			if (channel->m_maxUsers != NONE && channel->m_maxUsers <= static_cast<int>(channel->m_users.size())) {
 				writeToClient(user, m_name, buildReply(user, ERR_CHANNELISFULL, channel->m_name));
 				continue;
 			}
@@ -203,11 +204,11 @@ void	IRCServer::quitCmd(User* user, Message& msg)
 	(void)msg;
 	if (msg.m_args.size() > 1)
 		writeToRelations(user, "QUIT :Quit: " + msg.m_args[1] + CRLF);
-	else
+	else 
 		writeToRelations(user, "QUIT :Quit: leaving\r\n");
 	std::string nick = user->m_nick;
 	closeConnection(user->m_socket);
-	removeUser(nick);
+	removeUser(user);
 	throw IRCServer::UserRemoved();
 }
 
@@ -468,7 +469,7 @@ void	IRCServer::modeCmd(User* user, Message& msg)
 				if (add > sub && !o && !k && !l) {
 					channel->addOps(otherUser);
 					otherUser->m_opsChan[channel->m_name] = channel;
-					(reply.find('+') != std::string::npos) ? reply += "o" : reply += "-o";
+					(reply.find('+') != std::string::npos) ? reply += "o" : reply += "+o";
 					reply_params = " " + msg.m_args[2];
 				}
 				else if (sub > add && !o) {
@@ -499,6 +500,7 @@ void	IRCServer::modeCmd(User* user, Message& msg)
 					}
 					else if (std::atoi(msg.m_args[2].c_str()) > 0) {
 						channel->m_maxUsers = std::atoi(msg.m_args[2].c_str());
+						//std::cout << std::atoi(msg.m_args[2].c_str()) << std::endl;
 						(reply.find('+') != std::string::npos) ? reply += "l" : reply += "+l";
 						reply_params = " " + msg.m_args[2];
 					}

@@ -45,6 +45,7 @@ private:
 	std::string m_real;
 	ASocket*	m_socket;
 	bool		m_authentified;
+	bool		m_registered;
 	bool		m_servOps;
 
 	// CHANNELS (std::map<std::string, Channel *>(name, channel))

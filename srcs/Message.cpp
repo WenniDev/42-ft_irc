@@ -104,7 +104,8 @@ void Message::parseMsg(std::string msg)
 
 	// Arguments
 	int cursor = static_cast<int>(stream.tellg());
-	parseArgs(msg.substr(cursor, msg.length() - cursor + 1));
+	if (cursor != -1)
+		parseArgs(msg.substr(cursor, msg.length() - cursor + 1));
 }
 
 void Message::parseArgs(std::string args)

@@ -38,7 +38,7 @@ void TCP_IPv4::SocEvent::del(Socket *socket) {
 }
 
 void TCP_IPv4::SocEvent::wait() {
-	if ((m_eventNb = ::epoll_wait(m_fd, m_events, m_maxEvents, -1)) == -1) {
+	if ((m_eventNb = ::epoll_wait(m_fd, m_events, m_maxEvents, 1000)) == -1) {
 		if (errno != EINTR)
 			throw TCP_IPv4::Error("epoll_wait");
 	}

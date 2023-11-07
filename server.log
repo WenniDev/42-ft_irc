@@ -1,93 +1,3048 @@
-[07-10-0123 at 14:17:19] server miniRC created
-[07-10-0123 at 14:17:19] server miniRC up
-[07-10-0123 at 14:18:04] new connection to [localhost:51262] on socket 6
-[07-10-0123 at 14:18:04] command from [localhost:51262]:
-CAP LS
-[07-10-0123 at 14:18:04] command from [localhost:51262]:
+
+
+[07-10-0123 at 17:04:26] server miniRC down
+[07-10-0123 at 17:04:27] server miniRC created
+[07-10-0123 at 17:04:27] server miniRC up
+[07-10-0123 at 17:04:32] server miniRC down
+[07-10-0123 at 17:05:59] server miniRC created
+[07-10-0123 at 17:05:59] server miniRC up
+[07-10-0123 at 17:06:15] new connection to [made-f0Ar3s9.clusters.42paris.fr:48762] on socket 6
+[07-10-0123 at 17:06:15] command from [made-f0Ar3s9.clusters.42paris.fr:48762]:
 PASS pwd
-[07-10-0123 at 14:18:04] command from [localhost:51262]:
-NICK raph
-[07-10-0123 at 14:18:04] command from [localhost:51262]:
-USER rsabbah rsabbah localhost :Raphael SABBAH
-[07-10-0123 at 14:18:04] command from [localhost:51262]:
-MODE raph +i
-[07-10-0123 at 14:18:07] command from [localhost:51262]:
-PING miniRC
-[07-10-0123 at 14:18:07] reply from server miniRC to raph: 
-:miniRC PONG miniRC :raph
+[07-10-0123 at 17:06:15] command from [made-f0Ar3s9.clusters.42paris.fr:48762]:
+NICK Bot-test
+[07-10-0123 at 17:06:15] command from [made-f0Ar3s9.clusters.42paris.fr:48762]:
+JOIN #bot
+[07-10-0123 at 17:06:15] reply from server miniRC to Bot-test: 
+:Bot-test!@made-f0Ar3s9.clusters.42paris.fr JOIN :#bot
 
-[07-10-0123 at 14:18:34] new connection to [localhost:40460] on socket 7
-[07-10-0123 at 14:18:34] command from [localhost:40460]:
-CAP LS
-[07-10-0123 at 14:18:34] command from [localhost:40460]:
+[07-10-0123 at 17:06:15] reply from server miniRC to Bot-test: 
+:miniRC 353 Bot-test = #bot :@Bot-test
+
+[07-10-0123 at 17:06:15] reply from server miniRC to Bot-test: 
+:miniRC 366 Bot-test #bot :End of /NAMES
+
+[07-10-0123 at 17:06:21] closing connection to [made-f0Ar3s9.clusters.42paris.fr:48762] on socket 6
+[07-10-0123 at 17:06:24] new connection to [made-f0Ar3s9.clusters.42paris.fr:33582] on socket 6
+[07-10-0123 at 17:06:24] command from [made-f0Ar3s9.clusters.42paris.fr:33582]:
 PASS pwd
-[07-10-0123 at 14:18:34] command from [localhost:40460]:
-NICK raph2
-[07-10-0123 at 14:18:34] command from [localhost:40460]:
-USER rsabbah rsabbah localhost :Raphael SABBAH
-[07-10-0123 at 14:18:34] command from [localhost:40460]:
-MODE raph2 +i
-[07-10-0123 at 14:18:37] command from [localhost:40460]:
-PING miniRC
-[07-10-0123 at 14:18:37] reply from server miniRC to raph2: 
-:miniRC PONG miniRC :raph2
+[07-10-0123 at 17:06:24] command from [made-f0Ar3s9.clusters.42paris.fr:33582]:
+NICK Bot-test
+[07-10-0123 at 17:06:24] command from [made-f0Ar3s9.clusters.42paris.fr:33582]:
+JOIN #bot
+[07-10-0123 at 17:06:24] reply from server miniRC to Bot-test: 
+:Bot-test!@made-f0Ar3s9.clusters.42paris.fr JOIN :#bot
 
-[07-10-0123 at 14:19:08] command from [localhost:51262]:
-PING miniRC
-[07-10-0123 at 14:19:08] reply from server miniRC to raph: 
-:miniRC PONG miniRC :raph
+[07-10-0123 at 17:06:24] reply from server miniRC to Bot-test: 
+:miniRC 353 Bot-test = #bot :@Bot-test
 
-[07-10-0123 at 14:19:09] command from [localhost:40460]:
+[07-10-0123 at 17:06:24] reply from server miniRC to Bot-test: 
+:miniRC 366 Bot-test #bot :End of /NAMES
+
+[07-10-0123 at 17:06:30] closing connection to [made-f0Ar3s9.clusters.42paris.fr:33582] on socket 6
+[07-10-0123 at 17:06:30] new connection to [made-f0Ar3s9.clusters.42paris.fr:59488] on socket 6
+[07-10-0123 at 17:06:30] command from [made-f0Ar3s9.clusters.42paris.fr:59488]:
+PASS pwd
+[07-10-0123 at 17:06:30] command from [made-f0Ar3s9.clusters.42paris.fr:59488]:
+NICK Bot-test
+[07-10-0123 at 17:06:30] command from [made-f0Ar3s9.clusters.42paris.fr:59488]:
+JOIN #bot
+[07-10-0123 at 17:06:30] reply from server miniRC to Bot-test: 
+:Bot-test!@made-f0Ar3s9.clusters.42paris.fr JOIN :#bot
+
+[07-10-0123 at 17:06:30] reply from server miniRC to Bot-test: 
+:miniRC 353 Bot-test = #bot :@Bot-test
+
+[07-10-0123 at 17:06:30] reply from server miniRC to Bot-test: 
+:miniRC 366 Bot-test #bot :End of /NAMES
+
+[07-10-0123 at 17:06:35] closing connection to [made-f0Ar3s9.clusters.42paris.fr:59488] on socket 6
+[07-10-0123 at 17:06:36] new connection to [made-f0Ar3s9.clusters.42paris.fr:52182] on socket 6
+[07-10-0123 at 17:06:36] command from [made-f0Ar3s9.clusters.42paris.fr:52182]:
+PASS pwd
+[07-10-0123 at 17:06:36] command from [made-f0Ar3s9.clusters.42paris.fr:52182]:
+NICK Bot-test
+[07-10-0123 at 17:06:36] command from [made-f0Ar3s9.clusters.42paris.fr:52182]:
+JOIN #bot
+[07-10-0123 at 17:06:36] reply from server miniRC to Bot-test: 
+:Bot-test!@made-f0Ar3s9.clusters.42paris.fr JOIN :#bot
+
+[07-10-0123 at 17:06:36] reply from server miniRC to Bot-test: 
+:miniRC 353 Bot-test = #bot :@Bot-test
+
+[07-10-0123 at 17:06:36] reply from server miniRC to Bot-test: 
+:miniRC 366 Bot-test #bot :End of /NAMES
+
+[07-10-0123 at 17:06:43] new connection to [made-f0Ar3s9.clusters.42paris.fr:52190] on socket 7
+[07-10-0123 at 17:06:43] command from [made-f0Ar3s9.clusters.42paris.fr:52190]:
+PASS pwd
+[07-10-0123 at 17:06:43] command from [made-f0Ar3s9.clusters.42paris.fr:52190]:
+NICK Bot-test
+[07-10-0123 at 17:06:43] reply from server miniRC to : 
+:miniRC 433  Bot-test :Nickname is already in use
+
+[07-10-0123 at 17:06:43] command from [made-f0Ar3s9.clusters.42paris.fr:52190]:
+JOIN #bot
+[07-10-0123 at 17:06:43] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:06:43] closing connection to [made-f0Ar3s9.clusters.42paris.fr:52190] on socket 7
+[07-10-0123 at 17:08:47] closing connection to [made-f0Ar3s9.clusters.42paris.fr:52182] on socket 6
+[07-10-0123 at 17:08:51] new connection to [made-f0Ar3s9.clusters.42paris.fr:51448] on socket 6
+[07-10-0123 at 17:08:51] command from [made-f0Ar3s9.clusters.42paris.fr:51448]:
+PASS pwd
+[07-10-0123 at 17:08:51] command from [made-f0Ar3s9.clusters.42paris.fr:51448]:
+NICK miniBot
+[07-10-0123 at 17:09:01] new connection to [made-f0Ar3s9.clusters.42paris.fr:39186] on socket 7
+[07-10-0123 at 17:09:01] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+CAP LS
+[07-10-0123 at 17:09:01] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PASS pwd
+[07-10-0123 at 17:09:01] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+NICK jopadova
+[07-10-0123 at 17:09:01] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+USER jopadova jopadova made-f0Ar4s10 :Joachim PADOVANI
+[07-10-0123 at 17:09:01] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+MODE jopadova +i
+[07-10-0123 at 17:09:04] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:09:04] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:09:54] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PRIVMSG miniBot :test
+[07-10-0123 at 17:09:54] reply from server miniRC to miniBot: 
+:jopadova!jopadova@made-f0Ar3s9.clusters.42paris.fr PRIVMSG miniBot :test
+
+[07-10-0123 at 17:09:59] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PRIVMSG miniBot :42 ping
+[07-10-0123 at 17:09:59] reply from server miniRC to miniBot: 
+:jopadova!jopadova@made-f0Ar3s9.clusters.42paris.fr PRIVMSG miniBot :42 ping
+
+[07-10-0123 at 17:09:59] command from [made-f0Ar3s9.clusters.42paris.fr:51448]:
+PRIVMSG jopadova :Pong!
+[07-10-0123 at 17:09:59] reply from server miniRC to jopadova: 
+:miniBot!@made-f0Ar3s9.clusters.42paris.fr PRIVMSG jopadova :Pong!
+
+[07-10-0123 at 17:10:05] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PRIVMSG miniBot :42 stop
+[07-10-0123 at 17:10:05] reply from server miniRC to miniBot: 
+:jopadova!jopadova@made-f0Ar3s9.clusters.42paris.fr PRIVMSG miniBot :42 stop
+
+[07-10-0123 at 17:10:05] command from [made-f0Ar3s9.clusters.42paris.fr:51448]:
 QUIT :leaving
-[07-10-0123 at 14:19:09] closing connection to [localhost:40460] on socket 7
-[07-10-0123 at 14:19:21] new connection to [localhost:58306] on socket 7
-[07-10-0123 at 14:19:45] command from [localhost:58306]:
-PASS pwd
-[07-10-0123 at 14:19:56] command from [localhost:58306]:
-NICK avast
-[07-10-0123 at 14:20:09] command from [localhost:51262]:
+[07-10-0123 at 17:10:05] closing connection to [made-f0Ar3s9.clusters.42paris.fr:51448] on socket 6
+[07-10-0123 at 17:10:08] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
 PING miniRC
-[07-10-0123 at 14:20:09] reply from server miniRC to raph: 
-:miniRC PONG miniRC :raph
+[07-10-0123 at 17:10:08] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
 
-[07-10-0123 at 14:21:19] server miniRC down
-[07-10-0123 at 14:22:59] server miniRC created
-[07-10-0123 at 14:22:59] server miniRC up
-[07-10-0123 at 14:23:04] new connection to [localhost:51502] on socket 6
-[07-10-0123 at 14:23:04] command from [localhost:51502]:
+[07-10-0123 at 17:11:09] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:11:09] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:12:10] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:12:10] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:12:17] new connection to [localhost:54978] on socket 6
+[07-10-0123 at 17:12:17] command from [localhost:54978]:
 CAP LS
-[07-10-0123 at 14:23:04] command from [localhost:51502]:
+[07-10-0123 at 17:12:17] command from [localhost:54978]:
 PASS pwd
-[07-10-0123 at 14:23:04] command from [localhost:51502]:
+[07-10-0123 at 17:12:17] command from [localhost:54978]:
 NICK raph
-[07-10-0123 at 14:23:04] command from [localhost:51502]:
+[07-10-0123 at 17:12:17] command from [localhost:54978]:
 USER rsabbah rsabbah localhost :Raphael SABBAH
-[07-10-0123 at 14:23:04] command from [localhost:51502]:
+[07-10-0123 at 17:12:17] command from [localhost:54978]:
 MODE raph +i
-[07-10-0123 at 14:23:04] new connection to [localhost:51512] on socket 7
-[07-10-0123 at 14:23:07] command from [localhost:51502]:
+[07-10-0123 at 17:12:20] command from [localhost:54978]:
 PING miniRC
-[07-10-0123 at 14:23:07] reply from server miniRC to raph: 
+[07-10-0123 at 17:12:20] reply from server miniRC to raph: 
 :miniRC PONG miniRC :raph
 
-[07-10-0123 at 14:23:13] command from [localhost:51502]:
+[07-10-0123 at 17:12:40] new connection to [localhost:52816] on socket 8
+[07-10-0123 at 17:12:40] command from [localhost:52816]:
+CAP LS
+[07-10-0123 at 17:12:40] command from [localhost:52816]:
+PASS pwd
+[07-10-0123 at 17:12:40] command from [localhost:52816]:
+NICK apo
+[07-10-0123 at 17:12:40] command from [localhost:52816]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:12:40] command from [localhost:52816]:
+MODE apo +i
+[07-10-0123 at 17:12:43] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:12:43] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:12:51] command from [localhost:52816]:
+JOIN #test
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 353 apo = #test :@apo
+
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 366 apo #test :End of /NAMES
+
+[07-10-0123 at 17:12:51] command from [localhost:52816]:
+MODE #test
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 324 apo #test +
+
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 329 apo #test 1699373571
+
+[07-10-0123 at 17:12:51] command from [localhost:52816]:
+WHO #test
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 352 apo #test rsabbah localhost miniRC apo H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 315 apo #test :End of /WHO list
+
+[07-10-0123 at 17:12:51] command from [localhost:52816]:
+MODE #test b
+[07-10-0123 at 17:12:51] reply from server miniRC to apo: 
+:miniRC 368 apo #test :End of Channel Ban List
+
+[07-10-0123 at 17:13:05] command from [localhost:52816]:
+MODE #test +i
+[07-10-0123 at 17:13:05] reply from server miniRC to apo: 
+:apo!rsabbah@localhost MODE #test +i
+
+[07-10-0123 at 17:13:11] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:13:11] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:13:13] command from [localhost:54978]:
+JOIN #c1
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@raph
+
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 17:13:13] command from [localhost:54978]:
+MODE #c1
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699373593
+
+[07-10-0123 at 17:13:13] command from [localhost:54978]:
+WHO #c1
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 17:13:13] command from [localhost:54978]:
+MODE #c1 b
+[07-10-0123 at 17:13:13] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:13:21] command from [localhost:54978]:
+PART #c1
+[07-10-0123 at 17:13:21] reply from server miniRC to raph: 
+:raph!rsabbah@localhost PART #c1
+
+[07-10-0123 at 17:13:24] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:13:24] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:13:25] command from [localhost:54978]:
+JOIN #test
+[07-10-0123 at 17:13:25] reply from server miniRC to raph: 
+:miniRC 473 raph #test :Cannot join channel (+i)
+
+[07-10-0123 at 17:13:44] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:13:44] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:13:46] command from [localhost:52816]:
+INVITE fhjshf #test
+[07-10-0123 at 17:13:46] reply from server miniRC to apo: 
+:miniRC 401 apo fhjshf :No such nick
+
+[07-10-0123 at 17:14:10] command from [localhost:52816]:
+INVITE raph #test
+[07-10-0123 at 17:14:10] reply from server miniRC to apo: 
+:miniRC 341 apo raph #test
+
+[07-10-0123 at 17:14:10] reply from server miniRC to raph: 
+:apo!rsabbah@localhost INVITE raph #test
+
+[07-10-0123 at 17:14:10] reply from server miniRC to apo: 
+:miniRC NOTICE @#test :apo invited raph into channel #test
+
+[07-10-0123 at 17:14:12] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:14:12] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:14:16] command from [localhost:54978]:
+JOIN #test
+[07-10-0123 at 17:14:16] reply from server miniRC to apo: 
+:raph!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 353 raph = #test :@apo raph
+
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 366 raph #test :End of /NAMES
+
+[07-10-0123 at 17:14:16] command from [localhost:54978]:
+MODE #test
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 324 raph #test +i
+
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 329 raph #test 1699373571
+
+[07-10-0123 at 17:14:16] command from [localhost:54978]:
+WHO #test
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 352 raph #test rsabbah localhost miniRC raph H :0 Raphael SABBAH
+
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 315 raph #test :End of /WHO list
+
+[07-10-0123 at 17:14:16] command from [localhost:54978]:
+MODE #test b
+[07-10-0123 at 17:14:16] reply from server miniRC to raph: 
+:miniRC 368 raph #test :End of Channel Ban List
+
+[07-10-0123 at 17:14:25] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:14:25] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:14:31] command from [localhost:54978]:
+TOPIC #test ::THIS IS THE TOPIC
+[07-10-0123 at 17:14:31] reply from server miniRC to apo: 
+:raph!rsabbah@localhost TOPIC #test ::THIS IS THE TOPIC
+
+[07-10-0123 at 17:14:31] reply from server miniRC to raph: 
+:raph!rsabbah@localhost TOPIC #test ::THIS IS THE TOPIC
+
+[07-10-0123 at 17:14:42] command from [localhost:52816]:
+MODE #test +t
+[07-10-0123 at 17:14:42] reply from server miniRC to apo: 
+:apo!rsabbah@localhost MODE #test +t
+
+[07-10-0123 at 17:14:42] reply from server miniRC to raph: 
+:apo!rsabbah@localhost MODE #test +t
+
+[07-10-0123 at 17:14:45] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:14:45] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:15:02] command from [localhost:54978]:
+TOPIC #test ::NEW TOPIC
+[07-10-0123 at 17:15:02] reply from server miniRC to raph: 
+:miniRC 482 raph #test :You're not channel operator
+
+[07-10-0123 at 17:15:07] command from [localhost:52816]:
+MODE #test -t
+[07-10-0123 at 17:15:07] reply from server miniRC to apo: 
+:apo!rsabbah@localhost MODE #test -t
+
+[07-10-0123 at 17:15:07] reply from server miniRC to raph: 
+:apo!rsabbah@localhost MODE #test -t
+
+[07-10-0123 at 17:15:13] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:15:13] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:15:19] command from [localhost:54978]:
+TOPIC #test ::NEW TOPIC
+[07-10-0123 at 17:15:19] reply from server miniRC to apo: 
+:raph!rsabbah@localhost TOPIC #test ::NEW TOPIC
+
+[07-10-0123 at 17:15:19] reply from server miniRC to raph: 
+:raph!rsabbah@localhost TOPIC #test ::NEW TOPIC
+
+[07-10-0123 at 17:15:26] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:15:26] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:15:32] command from [localhost:54978]:
+MODE #test +k key
+[07-10-0123 at 17:15:32] reply from server miniRC to raph: 
+:miniRC 482 raph #test :You're not channel operator
+
+[07-10-0123 at 17:15:39] command from [localhost:52816]:
+MODE #test +o raph
+[07-10-0123 at 17:15:39] reply from server miniRC to apo: 
+:apo!rsabbah@localhost MODE #test -o raph
+
+[07-10-0123 at 17:15:39] reply from server miniRC to raph: 
+:apo!rsabbah@localhost MODE #test -o raph
+
+[07-10-0123 at 17:15:46] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:15:46] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:15:55] command from [localhost:54978]:
+MODE #test +k key
+[07-10-0123 at 17:15:55] reply from server miniRC to apo: 
+:raph!rsabbah@localhost MODE #test +k key
+
+[07-10-0123 at 17:15:55] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test +k key
+
+[07-10-0123 at 17:16:14] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:16:14] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:16:27] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:16:27] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:16:47] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:16:47] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:17:15] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:17:15] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:17:28] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:17:28] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:17:41] command from [localhost:54978]:
+KICK #test apo :
+[07-10-0123 at 17:17:41] reply from server miniRC to apo: 
+:raph!rsabbah@localhost KICK #test apo :
+
+[07-10-0123 at 17:17:41] reply from server miniRC to raph: 
+:raph!rsabbah@localhost KICK #test apo :
+
+[07-10-0123 at 17:17:48] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:17:48] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:18:14] command from [localhost:54978]:
+PRIVMSG #test :coucou
+[07-10-0123 at 17:18:16] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:18:16] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:18:29] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:18:29] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:18:49] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:18:49] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:19:17] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:19:17] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:19:30] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:19:30] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:19:50] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:19:50] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:19:52] command from [localhost:54978]:
+MODE #test +l 1
+[07-10-0123 at 17:19:52] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test +l 1
+
+[07-10-0123 at 17:20:03] command from [localhost:54978]:
+MODE #test -i
+[07-10-0123 at 17:20:03] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test -i
+
+[07-10-0123 at 17:20:18] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:20:18] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:20:21] command from [localhost:52816]:
+JOIN #test
+[07-10-0123 at 17:20:21] reply from server miniRC to apo: 
+:miniRC 475 apo #test :Cannot join channel (+k)
+
+[07-10-0123 at 17:20:31] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:20:31] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:20:31] command from [localhost:54978]:
+MODE #test -k
+[07-10-0123 at 17:20:31] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test -k key
+
+[07-10-0123 at 17:20:35] command from [localhost:52816]:
+JOIN #test
+[07-10-0123 at 17:20:35] reply from server miniRC to apo: 
+:miniRC 471 apo #test :Cannot join channel (+l)
+
+[07-10-0123 at 17:20:42] command from [localhost:54978]:
+MODE #test +l 2
+[07-10-0123 at 17:20:42] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test +l 2
+
+[07-10-0123 at 17:20:44] command from [localhost:52816]:
+JOIN #test
+[07-10-0123 at 17:20:44] reply from server miniRC to apo: 
+:miniRC 471 apo #test :Cannot join channel (+l)
+
+[07-10-0123 at 17:20:51] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:20:51] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:20:54] command from [localhost:54978]:
+MODE #test +l 20
+[07-10-0123 at 17:20:54] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test +l 20
+
+[07-10-0123 at 17:20:57] command from [localhost:52816]:
+JOIN #test
+[07-10-0123 at 17:20:57] reply from server miniRC to apo: 
+:miniRC 471 apo #test :Cannot join channel (+l)
+
+[07-10-0123 at 17:21:03] command from [localhost:54978]:
+MODE #test -l
+[07-10-0123 at 17:21:03] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #test -l 20
+
+[07-10-0123 at 17:21:05] command from [localhost:52816]:
+JOIN #test
+[07-10-0123 at 17:21:05] reply from server miniRC to raph: 
+:apo!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 332 apo #test ::NEW TOPIC
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 333 apo #test raph!rsabbah@localhost 1699373719
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 353 apo = #test :@raph apo
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 366 apo #test :End of /NAMES
+
+[07-10-0123 at 17:21:05] command from [localhost:52816]:
+MODE #test
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 324 apo #test +
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 329 apo #test 1699373571
+
+[07-10-0123 at 17:21:05] command from [localhost:52816]:
+WHO #test
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 352 apo #test rsabbah localhost miniRC apo H :0 Raphael SABBAH
+
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 315 apo #test :End of /WHO list
+
+[07-10-0123 at 17:21:05] command from [localhost:52816]:
+MODE #test b
+[07-10-0123 at 17:21:05] reply from server miniRC to apo: 
+:miniRC 368 apo #test :End of Channel Ban List
+
+[07-10-0123 at 17:21:19] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:21:19] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:21:32] command from [localhost:54978]:
+PING miniRC
+[07-10-0123 at 17:21:32] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:21:52] command from [localhost:52816]:
+PING miniRC
+[07-10-0123 at 17:21:52] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:22:20] command from [made-f0Ar3s9.clusters.42paris.fr:39186]:
+PING miniRC
+[07-10-0123 at 17:22:20] reply from server miniRC to jopadova: 
+:miniRC PONG miniRC :jopadova
+
+[07-10-0123 at 17:22:26] command from [localhost:54978]:
 QUIT :leaving
-[07-10-0123 at 14:23:13] closing connection to [localhost:51502] on socket 6
-[07-10-0123 at 14:23:27] command from [localhost:51512]:
+[07-10-0123 at 17:22:26] reply from server miniRC to apo: 
+:raph!rsabbah@localhost QUIT :Quit: leaving
+
+[07-10-0123 at 17:22:26] closing connection to [localhost:54978] on socket 6
+[07-10-0123 at 17:22:29] command from [localhost:52816]:
+QUIT :leaving
+[07-10-0123 at 17:22:29] closing connection to [localhost:52816] on socket 8
+[07-10-0123 at 17:23:15] server miniRC created
+[07-10-0123 at 17:23:15] server miniRC up
+[07-10-0123 at 17:23:18] new connection to [localhost:48346] on socket 6
+[07-10-0123 at 17:23:18] command from [localhost:48346]:
+CAP LS
+[07-10-0123 at 17:23:18] command from [localhost:48346]:
 PASS pwd
-[07-10-0123 at 14:24:20] server miniRC down
-[07-10-0123 at 14:30:31] server miniRC created
-[07-10-0123 at 14:30:31] server miniRC up
-[07-10-0123 at 14:30:37] new connection to [localhost:59400] on socket 6
-[07-10-0123 at 14:30:49] command from [localhost:59400]:
+[07-10-0123 at 17:23:18] command from [localhost:48346]:
+NICK apo
+[07-10-0123 at 17:23:18] command from [localhost:48346]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:23:18] command from [localhost:48346]:
+MODE apo +i
+[07-10-0123 at 17:23:20] command from [localhost:48346]:
+QUIT :leaving
+[07-10-0123 at 17:23:20] closing connection to [localhost:48346] on socket 6
+[07-10-0123 at 17:23:24] new connection to [localhost:48354] on socket 6
+[07-10-0123 at 17:23:24] command from [localhost:48354]:
+CAP LS
+[07-10-0123 at 17:23:24] command from [localhost:48354]:
 PASS pwd
-[07-10-0123 at 14:31:07] command from [localhost:59400]:
-NICK avast
-[07-10-0123 at 14:31:46] server miniRC down
-[07-10-0123 at 14:57:04] server miniRC created
-[07-10-0123 at 14:57:04] server miniRC up
-[07-10-0123 at 14:59:24] server miniRC down
-[07-10-0123 at 14:59:28] server miniRC created
-[07-10-0123 at 14:59:34] server miniRC created
-[07-10-0123 at 14:59:34] server miniRC up
-[07-10-0123 at 15:00:30] server miniRC down
+[07-10-0123 at 17:23:24] command from [localhost:48354]:
+NICK apo
+[07-10-0123 at 17:23:24] command from [localhost:48354]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:23:24] command from [localhost:48354]:
+MODE apo +i
+[07-10-0123 at 17:23:27] command from [localhost:48354]:
+PING miniRC
+[07-10-0123 at 17:23:27] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:23:29] command from [localhost:48354]:
+QUIT :leaving
+[07-10-0123 at 17:23:29] closing connection to [localhost:48354] on socket 6
+[07-10-0123 at 17:23:37] new connection to [localhost:48382] on socket 6
+[07-10-0123 at 17:23:43] command from [localhost:48382]:
+PASS pwd
+[07-10-0123 at 17:23:48] command from [localhost:48382]:
+NICK apo
+[07-10-0123 at 17:23:51] closing connection to [localhost:48382] on socket 6
+[07-10-0123 at 17:23:53] new connection to [localhost:50784] on socket 6
+[07-10-0123 at 17:23:53] command from [localhost:50784]:
+CAP LS
+[07-10-0123 at 17:23:53] command from [localhost:50784]:
+PASS pwd
+[07-10-0123 at 17:23:53] command from [localhost:50784]:
+NICK apo
+[07-10-0123 at 17:23:53] command from [localhost:50784]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:23:53] command from [localhost:50784]:
+MODE apo +i
+[07-10-0123 at 17:23:55] command from [localhost:50784]:
+QUIT :leaving
+[07-10-0123 at 17:23:55] closing connection to [localhost:50784] on socket 6
+[07-10-0123 at 17:23:58] new connection to [localhost:34944] on socket 6
+[07-10-0123 at 17:23:58] command from [localhost:34944]:
+CAP LS
+[07-10-0123 at 17:23:58] command from [localhost:34944]:
+PASS pwd
+[07-10-0123 at 17:23:58] command from [localhost:34944]:
+NICK apo
+[07-10-0123 at 17:23:58] command from [localhost:34944]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:23:58] command from [localhost:34944]:
+MODE apo +i
+[07-10-0123 at 17:24:00] server miniRC down
+[07-10-0123 at 17:24:10] server miniRC created
+[07-10-0123 at 17:24:10] server miniRC up
+[07-10-0123 at 17:24:14] new connection to [localhost:59458] on socket 6
+[07-10-0123 at 17:24:14] command from [localhost:59458]:
+CAP LS
+[07-10-0123 at 17:24:14] command from [localhost:59458]:
+PASS pwd
+[07-10-0123 at 17:24:14] command from [localhost:59458]:
+NICK apo
+[07-10-0123 at 17:24:14] command from [localhost:59458]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:24:14] command from [localhost:59458]:
+MODE apo +i
+[07-10-0123 at 17:24:17] command from [localhost:59458]:
+PING miniRC
+[07-10-0123 at 17:24:17] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:24:22] command from [localhost:59458]:
+JOIN #test
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 353 apo = #test :@apo
+
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 366 apo #test :End of /NAMES
+
+[07-10-0123 at 17:24:22] command from [localhost:59458]:
+MODE #test
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 324 apo #test +
+
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 329 apo #test 1699374262
+
+[07-10-0123 at 17:24:22] command from [localhost:59458]:
+WHO #test
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 352 apo #test rsabbah localhost miniRC apo H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 315 apo #test :End of /WHO list
+
+[07-10-0123 at 17:24:22] command from [localhost:59458]:
+MODE #test b
+[07-10-0123 at 17:24:22] reply from server miniRC to apo: 
+:miniRC 368 apo #test :End of Channel Ban List
+
+[07-10-0123 at 17:24:28] command from [localhost:59458]:
+PRIVMSG #test :moode +i
+[07-10-0123 at 17:24:35] command from [localhost:59458]:
+MODE #test +i
+[07-10-0123 at 17:24:35] reply from server miniRC to apo: 
+:apo!rsabbah@localhost MODE #test +i
+
+[07-10-0123 at 17:24:43] new connection to [localhost:51474] on socket 7
+[07-10-0123 at 17:24:43] command from [localhost:51474]:
+CAP LS
+[07-10-0123 at 17:24:43] command from [localhost:51474]:
+PASS pwd
+[07-10-0123 at 17:24:43] command from [localhost:51474]:
+NICK raph
+[07-10-0123 at 17:24:43] command from [localhost:51474]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:24:43] command from [localhost:51474]:
+MODE raph +i
+[07-10-0123 at 17:24:46] new connection to [made-f0Ar3s9.clusters.42paris.fr:56256] on socket 8
+[07-10-0123 at 17:24:46] command from [made-f0Ar3s9.clusters.42paris.fr:56256]:
+PASS pwd
+[07-10-0123 at 17:24:46] command from [made-f0Ar3s9.clusters.42paris.fr:56256]:
+NICK miniBot
+[07-10-0123 at 17:24:46] command from [localhost:51474]:
+QUIT :leaving
+[07-10-0123 at 17:24:46] closing connection to [localhost:51474] on socket 7
+[07-10-0123 at 17:24:47] closing connection to [made-f0Ar3s9.clusters.42paris.fr:56256] on socket 8
+[07-10-0123 at 17:24:48] new connection to [localhost:42660] on socket 7
+[07-10-0123 at 17:24:48] command from [localhost:42660]:
+CAP LS
+[07-10-0123 at 17:24:48] command from [localhost:42660]:
+PASS pwd
+[07-10-0123 at 17:24:48] command from [localhost:42660]:
+NICK raph
+[07-10-0123 at 17:24:48] command from [localhost:42660]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:24:48] command from [localhost:42660]:
+MODE raph +i
+[07-10-0123 at 17:24:48] new connection to [made-f0Ar3s9.clusters.42paris.fr:56258] on socket 8
+[07-10-0123 at 17:24:48] command from [made-f0Ar3s9.clusters.42paris.fr:56258]:
+PASS pwd
+[07-10-0123 at 17:24:48] command from [made-f0Ar3s9.clusters.42paris.fr:56258]:
+NICK miniBot
+[07-10-0123 at 17:24:49] closing connection to [made-f0Ar3s9.clusters.42paris.fr:56258] on socket 8
+[07-10-0123 at 17:24:50] new connection to [made-f0Ar3s9.clusters.42paris.fr:56272] on socket 8
+[07-10-0123 at 17:24:50] command from [made-f0Ar3s9.clusters.42paris.fr:56272]:
+PASS pwd
+[07-10-0123 at 17:24:50] command from [made-f0Ar3s9.clusters.42paris.fr:56272]:
+NICK miniBot
+[07-10-0123 at 17:24:51] closing connection to [made-f0Ar3s9.clusters.42paris.fr:56272] on socket 8
+[07-10-0123 at 17:24:51] command from [localhost:42660]:
+PING miniRC
+[07-10-0123 at 17:24:51] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:24:51] new connection to [made-f0Ar3s9.clusters.42paris.fr:56274] on socket 8
+[07-10-0123 at 17:24:51] command from [made-f0Ar3s9.clusters.42paris.fr:56274]:
+PASS pwd
+[07-10-0123 at 17:24:51] command from [made-f0Ar3s9.clusters.42paris.fr:56274]:
+NICK miniBot
+[07-10-0123 at 17:24:52] closing connection to [made-f0Ar3s9.clusters.42paris.fr:56274] on socket 8
+[07-10-0123 at 17:24:54] command from [localhost:59458]:
+QUIT :leaving
+[07-10-0123 at 17:24:54] closing connection to [localhost:59458] on socket 6
+[07-10-0123 at 17:24:56] new connection to [localhost:41188] on socket 6
+[07-10-0123 at 17:24:56] command from [localhost:41188]:
+CAP LS
+[07-10-0123 at 17:24:56] command from [localhost:41188]:
+PASS pwd
+[07-10-0123 at 17:24:56] command from [localhost:41188]:
+NICK apo
+[07-10-0123 at 17:24:56] command from [localhost:41188]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:24:56] command from [localhost:41188]:
+MODE apo +i
+[07-10-0123 at 17:24:58] command from [localhost:41188]:
+QUIT :leaving
+[07-10-0123 at 17:24:58] closing connection to [localhost:41188] on socket 6
+[07-10-0123 at 17:24:59] new connection to [localhost:41204] on socket 6
+[07-10-0123 at 17:24:59] command from [localhost:41204]:
+CAP LS
+[07-10-0123 at 17:24:59] command from [localhost:41204]:
+PASS pwd
+[07-10-0123 at 17:24:59] command from [localhost:41204]:
+NICK apo
+[07-10-0123 at 17:24:59] command from [localhost:41204]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:24:59] command from [localhost:41204]:
+MODE apo +i
+[07-10-0123 at 17:25:02] command from [localhost:41204]:
+PING miniRC
+[07-10-0123 at 17:25:02] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:25:03] command from [localhost:42660]:
+QUIT :leaving
+[07-10-0123 at 17:25:03] closing connection to [localhost:42660] on socket 7
+[07-10-0123 at 17:25:04] new connection to [localhost:41206] on socket 7
+[07-10-0123 at 17:25:04] command from [localhost:41206]:
+CAP LS
+[07-10-0123 at 17:25:04] command from [localhost:41206]:
+PASS pwd
+[07-10-0123 at 17:25:04] command from [localhost:41206]:
+NICK raph
+[07-10-0123 at 17:25:04] command from [localhost:41206]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:25:04] command from [localhost:41206]:
+MODE raph +i
+[07-10-0123 at 17:25:07] new connection to [localhost:51636] on socket 8
+[07-10-0123 at 17:25:07] command from [localhost:51636]:
+CAP LS
+[07-10-0123 at 17:25:07] command from [localhost:51636]:
+PASS pwd
+[07-10-0123 at 17:25:07] command from [localhost:51636]:
+NICK raph
+[07-10-0123 at 17:25:07] reply from server miniRC to : 
+:miniRC 433  raph :Nickname is already in use
+
+[07-10-0123 at 17:25:07] command from [localhost:51636]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:25:07] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:25:07] closing connection to [localhost:51636] on socket 8
+[07-10-0123 at 17:25:11] new connection to [localhost:51650] on socket 8
+[07-10-0123 at 17:25:11] command from [localhost:51650]:
+CAP LS
+[07-10-0123 at 17:25:11] command from [localhost:51650]:
+PASS pwd
+[07-10-0123 at 17:25:11] command from [localhost:51650]:
+NICK raph
+[07-10-0123 at 17:25:11] reply from server miniRC to : 
+:miniRC 433  raph :Nickname is already in use
+
+[07-10-0123 at 17:25:11] command from [localhost:51650]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:25:11] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:25:11] closing connection to [localhost:51650] on socket 8
+[07-10-0123 at 17:25:28] command from [localhost:41204]:
+QUIT :leaving
+[07-10-0123 at 17:25:28] closing connection to [localhost:41204] on socket 6
+[07-10-0123 at 17:25:36] new connection to [localhost:58292] on socket 6
+[07-10-0123 at 17:25:36] command from [localhost:58292]:
+CAP LS
+[07-10-0123 at 17:25:36] command from [localhost:58292]:
+PASS pwd
+[07-10-0123 at 17:25:36] command from [localhost:58292]:
+NICK raph
+[07-10-0123 at 17:25:36] reply from server miniRC to : 
+:miniRC 433  raph :Nickname is already in use
+
+[07-10-0123 at 17:25:36] command from [localhost:58292]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:25:36] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:25:36] closing connection to [localhost:58292] on socket 6
+[07-10-0123 at 17:25:49] new connection to [localhost:43638] on socket 6
+[07-10-0123 at 17:25:49] command from [localhost:43638]:
+CAP LS
+[07-10-0123 at 17:25:49] command from [localhost:43638]:
+PASS pwd
+[07-10-0123 at 17:25:49] command from [localhost:43638]:
+NICK raph
+[07-10-0123 at 17:25:49] reply from server miniRC to : 
+:miniRC 433  raph :Nickname is already in use
+
+[07-10-0123 at 17:25:49] command from [localhost:43638]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:25:49] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:25:49] closing connection to [localhost:43638] on socket 6
+[07-10-0123 at 17:26:21] new connection to [localhost:56312] on socket 6
+[07-10-0123 at 17:26:21] command from [localhost:56312]:
+CAP LS
+[07-10-0123 at 17:26:21] command from [localhost:56312]:
+PASS pwd
+[07-10-0123 at 17:26:21] command from [localhost:56312]:
+NICK apo
+[07-10-0123 at 17:26:21] command from [localhost:56312]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:26:21] command from [localhost:56312]:
+MODE apo +i
+[07-10-0123 at 17:26:24] command from [localhost:56312]:
+QUIT :leaving
+[07-10-0123 at 17:26:24] closing connection to [localhost:56312] on socket 6
+[07-10-0123 at 17:26:29] new connection to [localhost:39706] on socket 6
+[07-10-0123 at 17:26:29] command from [localhost:39706]:
+CAP LS
+[07-10-0123 at 17:26:29] command from [localhost:39706]:
+PASS pwd
+[07-10-0123 at 17:26:29] command from [localhost:39706]:
+NICK apo
+[07-10-0123 at 17:26:29] command from [localhost:39706]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:26:29] command from [localhost:39706]:
+MODE apo +i
+[07-10-0123 at 17:26:31] command from [localhost:39706]:
+QUIT :leaving
+[07-10-0123 at 17:26:31] closing connection to [localhost:39706] on socket 6
+[07-10-0123 at 17:26:34] server miniRC down
+[07-10-0123 at 17:26:36] server miniRC created
+[07-10-0123 at 17:26:36] server miniRC up
+[07-10-0123 at 17:26:39] new connection to [localhost:38078] on socket 6
+[07-10-0123 at 17:26:39] command from [localhost:38078]:
+CAP LS
+[07-10-0123 at 17:26:39] command from [localhost:38078]:
+PASS pwd
+[07-10-0123 at 17:26:39] command from [localhost:38078]:
+NICK raph
+[07-10-0123 at 17:26:39] command from [localhost:38078]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:26:39] command from [localhost:38078]:
+MODE raph +i
+[07-10-0123 at 17:26:44] command from [localhost:38078]:
+PING miniRC
+[07-10-0123 at 17:26:44] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:26:45] command from [localhost:38078]:
+QUIT :leaving
+[07-10-0123 at 17:26:45] closing connection to [localhost:38078] on socket 6
+[07-10-0123 at 17:26:47] new connection to [localhost:46500] on socket 6
+[07-10-0123 at 17:26:47] command from [localhost:46500]:
+CAP LS
+[07-10-0123 at 17:26:47] command from [localhost:46500]:
+PASS pwd
+[07-10-0123 at 17:26:47] command from [localhost:46500]:
+NICK raph
+[07-10-0123 at 17:26:47] command from [localhost:46500]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:26:47] command from [localhost:46500]:
+MODE raph +i
+[07-10-0123 at 17:26:50] command from [localhost:46500]:
+PING miniRC
+[07-10-0123 at 17:26:50] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:26:51] new connection to [localhost:46516] on socket 7
+[07-10-0123 at 17:26:51] command from [localhost:46516]:
+CAP LS
+[07-10-0123 at 17:26:51] command from [localhost:46516]:
+PASS pwd
+[07-10-0123 at 17:26:51] command from [localhost:46516]:
+NICK raph
+[07-10-0123 at 17:26:51] reply from server miniRC to : 
+:miniRC 433  raph :Nickname is already in use
+
+[07-10-0123 at 17:26:51] command from [localhost:46516]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:26:51] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:26:51] closing connection to [localhost:46516] on socket 7
+[07-10-0123 at 17:26:59] command from [localhost:46500]:
+QUIT :leaving
+[07-10-0123 at 17:26:59] closing connection to [localhost:46500] on socket 6
+[07-10-0123 at 17:27:00] new connection to [localhost:47944] on socket 6
+[07-10-0123 at 17:27:00] command from [localhost:47944]:
+CAP LS
+[07-10-0123 at 17:27:00] command from [localhost:47944]:
+PASS pwd
+[07-10-0123 at 17:27:00] command from [localhost:47944]:
+NICK raph
+[07-10-0123 at 17:27:00] command from [localhost:47944]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:27:00] command from [localhost:47944]:
+MODE raph +i
+[07-10-0123 at 17:27:03] command from [localhost:47944]:
+QUIT :leaving
+[07-10-0123 at 17:27:03] closing connection to [localhost:47944] on socket 6
+[07-10-0123 at 17:27:06] new connection to [localhost:40924] on socket 6
+[07-10-0123 at 17:27:06] command from [localhost:40924]:
+CAP LS
+[07-10-0123 at 17:27:06] command from [localhost:40924]:
+PASS pwd
+[07-10-0123 at 17:27:06] command from [localhost:40924]:
+NICK apo
+[07-10-0123 at 17:27:06] command from [localhost:40924]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:27:06] command from [localhost:40924]:
+MODE apo +i
+[07-10-0123 at 17:27:08] new connection to [localhost:40940] on socket 7
+[07-10-0123 at 17:27:08] command from [localhost:40940]:
+CAP LS
+[07-10-0123 at 17:27:08] command from [localhost:40940]:
+PASS pwd
+[07-10-0123 at 17:27:08] command from [localhost:40940]:
+NICK raph
+[07-10-0123 at 17:27:08] command from [localhost:40940]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:27:08] command from [localhost:40940]:
+MODE raph +i
+[07-10-0123 at 17:27:09] command from [localhost:40924]:
+PING miniRC
+[07-10-0123 at 17:27:09] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:27:11] command from [localhost:40940]:
+PING miniRC
+[07-10-0123 at 17:27:11] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:27:19] new connection to [made-f0Ar3s9.clusters.42paris.fr:32898] on socket 8
+[07-10-0123 at 17:27:19] command from [made-f0Ar3s9.clusters.42paris.fr:32898]:
+PASS pwd
+[07-10-0123 at 17:27:19] command from [made-f0Ar3s9.clusters.42paris.fr:32898]:
+NICK miniBot
+[07-10-0123 at 17:27:22] new connection to [made-f0Ar3s9.clusters.42paris.fr:32914] on socket 9
+[07-10-0123 at 17:27:22] command from [made-f0Ar3s9.clusters.42paris.fr:32914]:
+PASS pwd
+[07-10-0123 at 17:27:22] command from [made-f0Ar3s9.clusters.42paris.fr:32914]:
+NICK miniBot
+[07-10-0123 at 17:27:22] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:27:23] command from [localhost:40940]:
+JOIN #test
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 353 raph = #test :@raph
+
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 366 raph #test :End of /NAMES
+
+[07-10-0123 at 17:27:23] command from [localhost:40940]:
+MODE #test
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 324 raph #test +
+
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 329 raph #test 1699374443
+
+[07-10-0123 at 17:27:23] command from [localhost:40940]:
+WHO #test
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 352 raph #test rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 315 raph #test :End of /WHO list
+
+[07-10-0123 at 17:27:23] command from [localhost:40940]:
+MODE #test b
+[07-10-0123 at 17:27:23] reply from server miniRC to raph: 
+:miniRC 368 raph #test :End of Channel Ban List
+
+[07-10-0123 at 17:27:27] closing connection to [made-f0Ar3s9.clusters.42paris.fr:32914] on socket 9
+[07-10-0123 at 17:27:46] server miniRC created
+[07-10-0123 at 17:27:46] server miniRC up
+[07-10-0123 at 17:27:49] new connection to [made-f0Ar3s9.clusters.42paris.fr:53850] on socket 6
+[07-10-0123 at 17:27:49] command from [made-f0Ar3s9.clusters.42paris.fr:53850]:
+PASS pwd
+[07-10-0123 at 17:27:49] command from [made-f0Ar3s9.clusters.42paris.fr:53850]:
+NICK miniBot
+[07-10-0123 at 17:28:09] new connection to [made-f0Ar3s9.clusters.42paris.fr:60010] on socket 7
+[07-10-0123 at 17:28:09] command from [made-f0Ar3s9.clusters.42paris.fr:60010]:
+PASS pwd
+[07-10-0123 at 17:28:09] command from [made-f0Ar3s9.clusters.42paris.fr:60010]:
+NICK miniBot
+[07-10-0123 at 17:28:09] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:28:15] closing connection to [made-f0Ar3s9.clusters.42paris.fr:60010] on socket 7
+[07-10-0123 at 17:32:43] server miniRC created
+[07-10-0123 at 17:32:43] server miniRC up
+[07-10-0123 at 17:32:44] new connection to [made-f0Ar3s9.clusters.42paris.fr:60780] on socket 6
+[07-10-0123 at 17:32:44] command from [made-f0Ar3s9.clusters.42paris.fr:60780]:
+PASS pwd
+[07-10-0123 at 17:32:44] command from [made-f0Ar3s9.clusters.42paris.fr:60780]:
+NICK miniBot
+[07-10-0123 at 17:32:46] new connection to [made-f0Ar3s9.clusters.42paris.fr:60488] on socket 7
+[07-10-0123 at 17:32:46] command from [made-f0Ar3s9.clusters.42paris.fr:60488]:
+PASS pwd
+[07-10-0123 at 17:32:46] command from [made-f0Ar3s9.clusters.42paris.fr:60488]:
+NICK miniBot
+[07-10-0123 at 17:32:46] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:32:49] closing connection to [made-f0Ar3s9.clusters.42paris.fr:60488] on socket 7
+[07-10-0123 at 17:32:56] new connection to [made-f0Ar3s9.clusters.42paris.fr:49834] on socket 7
+[07-10-0123 at 17:32:56] command from [made-f0Ar3s9.clusters.42paris.fr:49834]:
+PASS pwd
+[07-10-0123 at 17:32:56] command from [made-f0Ar3s9.clusters.42paris.fr:49834]:
+NICK miniBot
+[07-10-0123 at 17:32:56] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:32:59] closing connection to [made-f0Ar3s9.clusters.42paris.fr:49834] on socket 7
+[07-10-0123 at 17:33:02] closing connection to [made-f0Ar3s9.clusters.42paris.fr:60780] on socket 6
+[07-10-0123 at 17:33:02] new connection to [made-f0Ar3s9.clusters.42paris.fr:49840] on socket 6
+[07-10-0123 at 17:33:02] command from [made-f0Ar3s9.clusters.42paris.fr:49840]:
+PASS pwd
+[07-10-0123 at 17:33:02] command from [made-f0Ar3s9.clusters.42paris.fr:49840]:
+NICK miniBot
+[07-10-0123 at 17:33:02] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:33:20] closing connection to [made-f0Ar3s9.clusters.42paris.fr:49840] on socket 6
+[07-10-0123 at 17:33:23] server miniRC down
+[07-10-0123 at 17:33:30] server miniRC created
+[07-10-0123 at 17:33:30] server miniRC up
+[07-10-0123 at 17:33:31] new connection to [made-f0Ar3s9.clusters.42paris.fr:44640] on socket 6
+[07-10-0123 at 17:33:31] command from [made-f0Ar3s9.clusters.42paris.fr:44640]:
+PASS pwd
+[07-10-0123 at 17:33:31] command from [made-f0Ar3s9.clusters.42paris.fr:44640]:
+NICK miniBot
+[07-10-0123 at 17:33:33] new connection to [made-f0Ar3s9.clusters.42paris.fr:44656] on socket 7
+[07-10-0123 at 17:33:33] command from [made-f0Ar3s9.clusters.42paris.fr:44656]:
+PASS pwd
+[07-10-0123 at 17:33:33] command from [made-f0Ar3s9.clusters.42paris.fr:44656]:
+NICK miniBot
+[07-10-0123 at 17:33:33] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:33:34] closing connection to [made-f0Ar3s9.clusters.42paris.fr:44656] on socket 7
+[07-10-0123 at 17:36:26] server miniRC created
+[07-10-0123 at 17:36:26] server miniRC up
+[07-10-0123 at 17:36:27] new connection to [made-f0Ar3s9.clusters.42paris.fr:45936] on socket 6
+[07-10-0123 at 17:36:27] command from [made-f0Ar3s9.clusters.42paris.fr:45936]:
+PASS pwd
+[07-10-0123 at 17:36:27] command from [made-f0Ar3s9.clusters.42paris.fr:45936]:
+NICK miniBot
+[07-10-0123 at 17:36:31] new connection to [made-f0Ar3s9.clusters.42paris.fr:45938] on socket 7
+[07-10-0123 at 17:36:31] command from [made-f0Ar3s9.clusters.42paris.fr:45938]:
+PASS pwd
+[07-10-0123 at 17:36:31] command from [made-f0Ar3s9.clusters.42paris.fr:45938]:
+NICK miniBot
+[07-10-0123 at 17:36:31] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:36:33] closing connection to [made-f0Ar3s9.clusters.42paris.fr:45938] on socket 7
+[07-10-0123 at 17:36:38] closing connection to [made-f0Ar3s9.clusters.42paris.fr:45936] on socket 6
+[07-10-0123 at 17:36:39] new connection to [made-f0Ar3s9.clusters.42paris.fr:44634] on socket 6
+[07-10-0123 at 17:36:39] command from [made-f0Ar3s9.clusters.42paris.fr:44634]:
+PASS pwd
+[07-10-0123 at 17:36:39] command from [made-f0Ar3s9.clusters.42paris.fr:44634]:
+NICK miniBot
+[07-10-0123 at 17:36:39] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:37:06] new connection to [localhost:34694] on socket 7
+[07-10-0123 at 17:37:06] command from [localhost:34694]:
+CAP LS
+[07-10-0123 at 17:37:06] command from [localhost:34694]:
+PASS pwd
+[07-10-0123 at 17:37:06] command from [localhost:34694]:
+NICK apo
+[07-10-0123 at 17:37:06] command from [localhost:34694]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:37:06] command from [localhost:34694]:
+MODE apo +i
+[07-10-0123 at 17:37:08] new connection to [localhost:43538] on socket 8
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+CAP LS
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+PASS pwd
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+NICK raph
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+MODE raph +i
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+JOIN #test
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 353 raph = #test :@raph
+
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 366 raph #test :End of /NAMES
+
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+MODE #test
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 324 raph #test +
+
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 329 raph #test 1699375028
+
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+WHO #test
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 352 raph #test rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 315 raph #test :End of /WHO list
+
+[07-10-0123 at 17:37:08] command from [localhost:43538]:
+MODE #test b
+[07-10-0123 at 17:37:08] reply from server miniRC to raph: 
+:miniRC 368 raph #test :End of Channel Ban List
+
+[07-10-0123 at 17:37:09] command from [localhost:34694]:
+PING miniRC
+[07-10-0123 at 17:37:09] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:37:13] command from [localhost:43538]:
+PING miniRC
+[07-10-0123 at 17:37:13] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:37:21] command from [localhost:34694]:
+QUIT :leaving
+[07-10-0123 at 17:37:21] closing connection to [localhost:34694] on socket 7
+[07-10-0123 at 17:37:23] command from [localhost:43538]:
+QUIT :leaving
+[07-10-0123 at 17:37:23] closing connection to [localhost:43538] on socket 8
+[07-10-0123 at 17:38:00] closing connection to [made-f0Ar3s9.clusters.42paris.fr:44634] on socket 6
+[07-10-0123 at 17:42:48] server miniRC down
+[07-10-0123 at 17:42:52] server miniRC created
+[07-10-0123 at 17:42:52] server miniRC up
+[07-10-0123 at 17:42:56] new connection to [made-f0Ar3s9.clusters.42paris.fr:33796] on socket 6
+[07-10-0123 at 17:42:56] command from [made-f0Ar3s9.clusters.42paris.fr:33796]:
+PASS pwd
+[07-10-0123 at 17:42:56] command from [made-f0Ar3s9.clusters.42paris.fr:33796]:
+NICK miniBot
+[07-10-0123 at 17:42:59] new connection to [made-f0Ar3s9.clusters.42paris.fr:33810] on socket 7
+[07-10-0123 at 17:42:59] command from [made-f0Ar3s9.clusters.42paris.fr:33810]:
+PASS pwd
+[07-10-0123 at 17:42:59] command from [made-f0Ar3s9.clusters.42paris.fr:33810]:
+NICK miniBot
+[07-10-0123 at 17:42:59] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:43:02] closing connection to [made-f0Ar3s9.clusters.42paris.fr:33810] on socket 7
+[07-10-0123 at 17:43:08] closing connection to [made-f0Ar3s9.clusters.42paris.fr:33796] on socket 6
+[07-10-0123 at 17:43:11] new connection to [made-f0Ar3s9.clusters.42paris.fr:36244] on socket 6
+[07-10-0123 at 17:43:11] command from [made-f0Ar3s9.clusters.42paris.fr:36244]:
+PASS pwd
+[07-10-0123 at 17:43:11] command from [made-f0Ar3s9.clusters.42paris.fr:36244]:
+NICK miniBot
+[07-10-0123 at 17:43:15] new connection to [made-f0Ar3s9.clusters.42paris.fr:36246] on socket 7
+[07-10-0123 at 17:43:15] command from [made-f0Ar3s9.clusters.42paris.fr:36246]:
+PASS pwd
+[07-10-0123 at 17:43:15] command from [made-f0Ar3s9.clusters.42paris.fr:36246]:
+NICK miniBot
+[07-10-0123 at 17:43:15] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:43:19] closing connection to [made-f0Ar3s9.clusters.42paris.fr:36246] on socket 7
+[07-10-0123 at 17:43:24] closing connection to [made-f0Ar3s9.clusters.42paris.fr:36244] on socket 6
+[07-10-0123 at 17:43:27] new connection to [made-f0Ar3s9.clusters.42paris.fr:50132] on socket 6
+[07-10-0123 at 17:43:27] command from [made-f0Ar3s9.clusters.42paris.fr:50132]:
+PASS pwd
+[07-10-0123 at 17:43:27] command from [made-f0Ar3s9.clusters.42paris.fr:50132]:
+NICK miniBot
+[07-10-0123 at 17:43:34] closing connection to [made-f0Ar3s9.clusters.42paris.fr:50132] on socket 6
+[07-10-0123 at 17:45:57] server miniRC down
+[07-10-0123 at 17:46:02] server miniRC created
+[07-10-0123 at 17:46:02] server miniRC up
+[07-10-0123 at 17:46:08] new connection to [made-f0Ar3s9.clusters.42paris.fr:42858] on socket 6
+[07-10-0123 at 17:46:08] command from [made-f0Ar3s9.clusters.42paris.fr:42858]:
+PASS pwd
+[07-10-0123 at 17:46:08] command from [made-f0Ar3s9.clusters.42paris.fr:42858]:
+NICK miniBot
+[07-10-0123 at 17:46:13] new connection to [made-f0Ar3s9.clusters.42paris.fr:42864] on socket 7
+[07-10-0123 at 17:46:13] command from [made-f0Ar3s9.clusters.42paris.fr:42864]:
+PASS pwd
+[07-10-0123 at 17:46:13] command from [made-f0Ar3s9.clusters.42paris.fr:42864]:
+NICK miniBot
+[07-10-0123 at 17:46:13] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 17:46:17] closing connection to [made-f0Ar3s9.clusters.42paris.fr:42864] on socket 7
+[07-10-0123 at 17:46:21] closing connection to [made-f0Ar3s9.clusters.42paris.fr:42858] on socket 6
+[07-10-0123 at 17:46:24] new connection to [made-f0Ar3s9.clusters.42paris.fr:34010] on socket 6
+[07-10-0123 at 17:46:24] command from [made-f0Ar3s9.clusters.42paris.fr:34010]:
+PASS pwd
+[07-10-0123 at 17:46:24] command from [made-f0Ar3s9.clusters.42paris.fr:34010]:
+NICK miniBot
+[07-10-0123 at 17:46:33] new connection to [localhost:34776] on socket 7
+[07-10-0123 at 17:46:33] command from [localhost:34776]:
+CAP LS
+[07-10-0123 at 17:46:33] command from [localhost:34776]:
+PASS pwd
+[07-10-0123 at 17:46:33] command from [localhost:34776]:
+NICK apo
+[07-10-0123 at 17:46:33] command from [localhost:34776]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:46:33] command from [localhost:34776]:
+MODE apo +i
+[07-10-0123 at 17:46:35] command from [localhost:34776]:
+QUIT :leaving
+[07-10-0123 at 17:46:35] closing connection to [localhost:34776] on socket 7
+[07-10-0123 at 17:46:36] closing connection to [made-f0Ar3s9.clusters.42paris.fr:34010] on socket 6
+[07-10-0123 at 17:46:46] new connection to [localhost:52880] on socket 6
+[07-10-0123 at 17:46:49] closing connection to [localhost:52880] on socket 6
+[07-10-0123 at 17:47:40] new connection to [localhost:58038] on socket 6
+[07-10-0123 at 17:47:44] command from [localhost:58038]:
+PASS pwd
+[07-10-0123 at 17:48:02] command from [localhost:58038]:
+JOIN #tes
+[07-10-0123 at 17:48:02] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 17:48:02] closing connection to [localhost:58038] on socket 6
+[07-10-0123 at 17:48:07] new connection to [localhost:38674] on socket 6
+[07-10-0123 at 17:48:15] command from [localhost:38674]:
+PASS pwd
+[07-10-0123 at 17:48:23] command from [localhost:38674]:
+NICK raph
+[07-10-0123 at 17:48:38] closing connection to [localhost:38674] on socket 6
+[07-10-0123 at 17:48:44] new connection to [localhost:59154] on socket 6
+[07-10-0123 at 17:48:52] command from [localhost:59154]:
+PASS oi
+[07-10-0123 at 17:48:52] reply from server miniRC to : 
+:miniRC 464  :Incorrect password
+
+[07-10-0123 at 17:48:52] closing connection to [localhost:59154] on socket 6
+[07-10-0123 at 17:49:03] server miniRC down
+[07-10-0123 at 17:49:57] server miniRC created
+[07-10-0123 at 17:49:57] server miniRC up
+[07-10-0123 at 17:50:03] new connection to [localhost:38450] on socket 6
+[07-10-0123 at 17:50:03] command from [localhost:38450]:
+CAP LS
+[07-10-0123 at 17:50:03] command from [localhost:38450]:
+PASS pwd
+[07-10-0123 at 17:50:03] command from [localhost:38450]:
+NICK raph
+[07-10-0123 at 17:50:03] command from [localhost:38450]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:50:03] command from [localhost:38450]:
+MODE raph +i
+[07-10-0123 at 17:50:06] command from [localhost:38450]:
+PING miniRC
+[07-10-0123 at 17:50:06] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:50:07] command from [localhost:38450]:
+JOIN #c1
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@raph
+
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 17:50:07] command from [localhost:38450]:
+MODE #c1
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699375807
+
+[07-10-0123 at 17:50:07] command from [localhost:38450]:
+WHO #c1
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 17:50:07] command from [localhost:38450]:
+MODE #c1 b
+[07-10-0123 at 17:50:07] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:50:14] command from [localhost:38450]:
+PRIVMSG #c1 :mode +l 2
+[07-10-0123 at 17:50:19] command from [localhost:38450]:
+MODE #c1 +l 2
+[07-10-0123 at 17:50:19] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 2
+
+[07-10-0123 at 17:50:25] command from [localhost:38450]:
+MODE #c1 +l 1
+[07-10-0123 at 17:50:25] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:50:28] command from [localhost:38450]:
+MODE #c1 +l 2
+[07-10-0123 at 17:50:28] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 2
+
+[07-10-0123 at 17:51:07] command from [localhost:38450]:
+PING miniRC
+[07-10-0123 at 17:51:07] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:52:08] command from [localhost:38450]:
+PING miniRC
+[07-10-0123 at 17:52:08] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:52:22] server miniRC down
+[07-10-0123 at 17:52:31] server miniRC created
+[07-10-0123 at 17:52:31] server miniRC up
+[07-10-0123 at 17:52:44] new connection to [localhost:51370] on socket 6
+[07-10-0123 at 17:52:44] command from [localhost:51370]:
+CAP LS
+[07-10-0123 at 17:52:44] command from [localhost:51370]:
+PASS pwd
+[07-10-0123 at 17:52:44] command from [localhost:51370]:
+NICK raph
+[07-10-0123 at 17:52:44] command from [localhost:51370]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:52:44] command from [localhost:51370]:
+MODE raph +i
+[07-10-0123 at 17:52:47] command from [localhost:51370]:
+PING miniRC
+[07-10-0123 at 17:52:47] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:52:49] command from [localhost:51370]:
+JOIN #c1
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@raph
+
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 17:52:49] command from [localhost:51370]:
+MODE #c1
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699375969
+
+[07-10-0123 at 17:52:49] command from [localhost:51370]:
+WHO #c1
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 17:52:49] command from [localhost:51370]:
+MODE #c1 b
+[07-10-0123 at 17:52:49] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:52:57] command from [localhost:51370]:
+MODE #c1 +l 1
+[07-10-0123 at 17:52:57] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:53:02] new connection to [localhost:38730] on socket 7
+[07-10-0123 at 17:53:02] command from [localhost:38730]:
+CAP LS
+[07-10-0123 at 17:53:02] command from [localhost:38730]:
+PASS pwd
+[07-10-0123 at 17:53:02] command from [localhost:38730]:
+NICK apo
+[07-10-0123 at 17:53:02] command from [localhost:38730]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:53:02] command from [localhost:38730]:
+MODE apo +i
+[07-10-0123 at 17:53:05] command from [localhost:38730]:
+PING miniRC
+[07-10-0123 at 17:53:05] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:53:08] command from [localhost:38730]:
+JOIN #c1
+[07-10-0123 at 17:53:08] reply from server miniRC to apo: 
+:miniRC 471 apo #c1 :Cannot join channel (+l)
+
+[07-10-0123 at 17:53:11] command from [localhost:51370]:
+MODE #c1 +l 2
+[07-10-0123 at 17:53:11] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 2
+
+[07-10-0123 at 17:53:14] command from [localhost:38730]:
+JOIN #c1
+[07-10-0123 at 17:53:14] reply from server miniRC to raph: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 353 apo = #c1 :@raph apo
+
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 366 apo #c1 :End of /NAMES
+
+[07-10-0123 at 17:53:14] command from [localhost:38730]:
+MODE #c1
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 324 apo #c1 +l 2
+
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 329 apo #c1 1699375969
+
+[07-10-0123 at 17:53:14] command from [localhost:38730]:
+WHO #c1
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 352 apo #c1 rsabbah localhost miniRC apo H :0 Raphael SABBAH
+
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 315 apo #c1 :End of /WHO list
+
+[07-10-0123 at 17:53:14] command from [localhost:38730]:
+MODE #c1 b
+[07-10-0123 at 17:53:14] reply from server miniRC to apo: 
+:miniRC 368 apo #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:53:34] command from [localhost:51370]:
+MODE #c1 +l 1
+[07-10-0123 at 17:53:34] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:53:34] reply from server miniRC to apo: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:53:37] command from [localhost:38730]:
+PRIVMSG #c1 :hello
+[07-10-0123 at 17:53:37] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :hello
+
+[07-10-0123 at 17:53:42] command from [localhost:38730]:
+PART #c1
+[07-10-0123 at 17:53:42] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PART #c1
+
+[07-10-0123 at 17:53:42] reply from server miniRC to apo: 
+:apo!rsabbah@localhost PART #c1
+
+[07-10-0123 at 17:53:46] command from [localhost:38730]:
+JOIN #c1
+[07-10-0123 at 17:53:46] reply from server miniRC to apo: 
+:miniRC 471 apo #c1 :Cannot join channel (+l)
+
+[07-10-0123 at 17:53:48] command from [localhost:51370]:
+PING miniRC
+[07-10-0123 at 17:53:48] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:53:54] command from [localhost:51370]:
+MODE #c1 -l
+[07-10-0123 at 17:53:54] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 -l 1
+
+[07-10-0123 at 17:53:56] command from [localhost:38730]:
+JOIN #c1
+[07-10-0123 at 17:53:56] reply from server miniRC to apo: 
+:miniRC 471 apo #c1 :Cannot join channel (+l)
+
+[07-10-0123 at 17:53:58] command from [localhost:38730]:
+JOIN #c1
+[07-10-0123 at 17:53:58] reply from server miniRC to apo: 
+:miniRC 471 apo #c1 :Cannot join channel (+l)
+
+[07-10-0123 at 17:54:06] command from [localhost:38730]:
+PING miniRC
+[07-10-0123 at 17:54:06] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:54:49] command from [localhost:51370]:
+PING miniRC
+[07-10-0123 at 17:54:49] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:55:07] command from [localhost:38730]:
+PING miniRC
+[07-10-0123 at 17:55:07] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:55:50] command from [localhost:51370]:
+PING miniRC
+[07-10-0123 at 17:55:50] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:56:07] server miniRC down
+[07-10-0123 at 17:56:13] server miniRC created
+[07-10-0123 at 17:56:13] server miniRC up
+[07-10-0123 at 17:56:21] new connection to [localhost:57234] on socket 6
+[07-10-0123 at 17:56:21] command from [localhost:57234]:
+CAP LS
+[07-10-0123 at 17:56:21] command from [localhost:57234]:
+PASS pwd
+[07-10-0123 at 17:56:21] command from [localhost:57234]:
+NICK raph
+[07-10-0123 at 17:56:21] command from [localhost:57234]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:56:21] command from [localhost:57234]:
+MODE raph +i
+[07-10-0123 at 17:56:22] new connection to [localhost:57246] on socket 7
+[07-10-0123 at 17:56:22] command from [localhost:57246]:
+CAP LS
+[07-10-0123 at 17:56:22] command from [localhost:57246]:
+PASS pwd
+[07-10-0123 at 17:56:22] command from [localhost:57246]:
+NICK apo
+[07-10-0123 at 17:56:22] command from [localhost:57246]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 17:56:22] command from [localhost:57246]:
+MODE apo +i
+[07-10-0123 at 17:56:24] command from [localhost:57234]:
+PING miniRC
+[07-10-0123 at 17:56:24] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:56:25] command from [localhost:57246]:
+PING miniRC
+[07-10-0123 at 17:56:25] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:56:30] command from [localhost:57234]:
+JOIN #c1
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@raph
+
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 17:56:30] command from [localhost:57234]:
+MODE #c1
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699376190
+
+[07-10-0123 at 17:56:30] command from [localhost:57234]:
+WHO #c1
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 17:56:30] command from [localhost:57234]:
+MODE #c1 b
+[07-10-0123 at 17:56:30] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:56:40] command from [localhost:57234]:
+MODE #c1 +l 1
+[07-10-0123 at 17:56:40] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:56:45] command from [localhost:57246]:
+JOIN #c1
+[07-10-0123 at 17:56:45] reply from server miniRC to apo: 
+:miniRC 471 apo #c1 :Cannot join channel (+l)
+
+[07-10-0123 at 17:56:51] command from [localhost:57234]:
+MODE #c1 -l
+[07-10-0123 at 17:56:51] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 -l 1
+
+[07-10-0123 at 17:56:53] command from [localhost:57246]:
+JOIN #c1
+[07-10-0123 at 17:56:53] reply from server miniRC to raph: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 353 apo = #c1 :@raph apo
+
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 366 apo #c1 :End of /NAMES
+
+[07-10-0123 at 17:56:53] command from [localhost:57246]:
+MODE #c1
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 324 apo #c1 +
+
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 329 apo #c1 1699376190
+
+[07-10-0123 at 17:56:53] command from [localhost:57246]:
+WHO #c1
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 352 apo #c1 rsabbah localhost miniRC apo H :0 Raphael SABBAH
+
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 315 apo #c1 :End of /WHO list
+
+[07-10-0123 at 17:56:53] command from [localhost:57246]:
+MODE #c1 b
+[07-10-0123 at 17:56:53] reply from server miniRC to apo: 
+:miniRC 368 apo #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:57:07] command from [localhost:57234]:
+MODE #c1 +l 1
+[07-10-0123 at 17:57:07] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:57:07] reply from server miniRC to apo: 
+:raph!rsabbah@localhost MODE #c1 +l 1
+
+[07-10-0123 at 17:57:12] command from [localhost:57246]:
+PART #c1
+[07-10-0123 at 17:57:12] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PART #c1
+
+[07-10-0123 at 17:57:12] reply from server miniRC to apo: 
+:apo!rsabbah@localhost PART #c1
+
+[07-10-0123 at 17:57:14] command from [localhost:57246]:
+JOIN #c1
+[07-10-0123 at 17:57:14] reply from server miniRC to apo: 
+:miniRC 471 apo #c1 :Cannot join channel (+l)
+
+[07-10-0123 at 17:57:17] command from [localhost:57234]:
+MODE #c1 +l 2
+[07-10-0123 at 17:57:17] reply from server miniRC to raph: 
+:raph!rsabbah@localhost MODE #c1 +l 2
+
+[07-10-0123 at 17:57:20] command from [localhost:57246]:
+JOIN #c1
+[07-10-0123 at 17:57:20] reply from server miniRC to raph: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 353 apo = #c1 :@raph apo
+
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 366 apo #c1 :End of /NAMES
+
+[07-10-0123 at 17:57:20] command from [localhost:57246]:
+MODE #c1
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 324 apo #c1 +l 2
+
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 329 apo #c1 1699376190
+
+[07-10-0123 at 17:57:20] command from [localhost:57246]:
+WHO #c1
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 352 apo #c1 rsabbah localhost miniRC apo H :0 Raphael SABBAH
+
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 315 apo #c1 :End of /WHO list
+
+[07-10-0123 at 17:57:20] command from [localhost:57246]:
+MODE #c1 b
+[07-10-0123 at 17:57:20] reply from server miniRC to apo: 
+:miniRC 368 apo #c1 :End of Channel Ban List
+
+[07-10-0123 at 17:57:25] command from [localhost:57234]:
+PING miniRC
+[07-10-0123 at 17:57:25] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:57:26] command from [localhost:57246]:
+PING miniRC
+[07-10-0123 at 17:57:26] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 17:57:27] command from [localhost:57234]:
+MODE #c1 +l -1
+[07-10-0123 at 17:57:36] command from [localhost:57234]:
+MODE #c1 +l 0
+[07-10-0123 at 17:58:01] command from [localhost:57246]:
+QUIT :leaving
+[07-10-0123 at 17:58:01] reply from server miniRC to raph: 
+:apo!rsabbah@localhost QUIT :Quit: leaving
+
+[07-10-0123 at 17:58:01] closing connection to [localhost:57246] on socket 7
+[07-10-0123 at 17:58:07] new connection to [localhost:50848] on socket 7
+[07-10-0123 at 17:58:18] command from [localhost:50848]:
+PASS
+ pwd
+[07-10-0123 at 17:58:26] command from [localhost:57234]:
+PING miniRC
+[07-10-0123 at 17:58:26] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:58:35] command from [localhost:50848]:
+PASS
+ pwd
+[07-10-0123 at 17:58:43] command from [localhost:50848]:
+PASS pwd
+[07-10-0123 at 17:59:01] command from [localhost:50848]:
+NICK raphiphou
+[07-10-0123 at 17:59:27] command from [localhost:57234]:
+PING miniRC
+[07-10-0123 at 17:59:27] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 17:59:27] command from [localhost:57234]:
+PRIVMSG #c1 :salut
+[07-10-0123 at 17:59:51] closing connection to [localhost:50848] on socket 7
+[07-10-0123 at 18:00:00] closing connection to [localhost:57234] on socket 6
+[07-10-0123 at 18:00:17] new connection to [localhost:50150] on socket 6
+[07-10-0123 at 18:00:17] command from [localhost:50150]:
+CAP LS
+[07-10-0123 at 18:00:17] command from [localhost:50150]:
+PASS pwd
+[07-10-0123 at 18:00:17] command from [localhost:50150]:
+NICK raph
+[07-10-0123 at 18:00:17] command from [localhost:50150]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:00:17] command from [localhost:50150]:
+MODE raph +i
+[07-10-0123 at 18:00:20] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:00:20] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:00:24] new connection to [localhost:50158] on socket 7
+[07-10-0123 at 18:00:30] command from [localhost:50158]:
+PASS pwd
+[07-10-0123 at 18:00:35] command from [localhost:50158]:
+NICK raphou
+[07-10-0123 at 18:00:58] closing connection to [localhost:50158] on socket 7
+[07-10-0123 at 18:01:08] command from [localhost:50150]:
+JOIN #test
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 353 raph = #test :@raph
+
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 366 raph #test :End of /NAMES
+
+[07-10-0123 at 18:01:08] command from [localhost:50150]:
+MODE #test
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 324 raph #test +
+
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 329 raph #test 1699376468
+
+[07-10-0123 at 18:01:08] command from [localhost:50150]:
+WHO #test
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 352 raph #test rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 315 raph #test :End of /WHO list
+
+[07-10-0123 at 18:01:08] command from [localhost:50150]:
+MODE #test b
+[07-10-0123 at 18:01:08] reply from server miniRC to raph: 
+:miniRC 368 raph #test :End of Channel Ban List
+
+[07-10-0123 at 18:01:11] new connection to [localhost:37104] on socket 7
+[07-10-0123 at 18:01:17] command from [localhost:37104]:
+PASS pwd
+[07-10-0123 at 18:01:21] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:01:21] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:01:34] command from [localhost:37104]:
+NICK raphou
+NICK raphou
+[07-10-0123 at 18:01:34] reply from server miniRC to : 
+:miniRC 432  raphou
+NICK :Erroneous nickname
+
+[07-10-0123 at 18:01:47] command from [localhost:37104]:
+NICK raphou
+[07-10-0123 at 18:02:06] closing connection to [localhost:37104] on socket 7
+[07-10-0123 at 18:02:10] new connection to [localhost:33656] on socket 7
+[07-10-0123 at 18:02:10] command from [localhost:33656]:
+CAP LS
+[07-10-0123 at 18:02:10] command from [localhost:33656]:
+PASS pwd
+[07-10-0123 at 18:02:10] command from [localhost:33656]:
+NICK raph
+[07-10-0123 at 18:02:10] reply from server miniRC to : 
+:miniRC 433  raph :Nickname is already in use
+
+[07-10-0123 at 18:02:10] command from [localhost:33656]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:02:10] reply from server miniRC to : 
+:miniRC 451  :You have not registered
+
+[07-10-0123 at 18:02:10] closing connection to [localhost:33656] on socket 7
+[07-10-0123 at 18:02:22] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:02:22] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:02:22] new connection to [localhost:55202] on socket 7
+[07-10-0123 at 18:02:22] command from [localhost:55202]:
+CAP LS
+[07-10-0123 at 18:02:22] command from [localhost:55202]:
+PASS pwd
+[07-10-0123 at 18:02:22] command from [localhost:55202]:
+NICK apo
+[07-10-0123 at 18:02:22] command from [localhost:55202]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:02:22] command from [localhost:55202]:
+MODE apo +i
+[07-10-0123 at 18:02:25] command from [localhost:55202]:
+PING miniRC
+[07-10-0123 at 18:02:25] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:02:41] command from [localhost:55202]:
+JOIN #test
+[07-10-0123 at 18:02:41] reply from server miniRC to raph: 
+:apo!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#test
+
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 353 apo = #test :@raph apo
+
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 366 apo #test :End of /NAMES
+
+[07-10-0123 at 18:02:41] command from [localhost:55202]:
+MODE #test
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 324 apo #test +
+
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 329 apo #test 1699376468
+
+[07-10-0123 at 18:02:41] command from [localhost:55202]:
+WHO #test
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 352 apo #test rsabbah localhost miniRC apo H :0 Raphael SABBAH
+
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 315 apo #test :End of /WHO list
+
+[07-10-0123 at 18:02:41] command from [localhost:55202]:
+MODE #test b
+[07-10-0123 at 18:02:41] reply from server miniRC to apo: 
+:miniRC 368 apo #test :End of Channel Ban List
+
+[07-10-0123 at 18:02:43] command from [localhost:55202]:
+PRIVMSG #test :salut
+[07-10-0123 at 18:02:43] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :salut
+
+[07-10-0123 at 18:02:45] command from [localhost:55202]:
+PRIVMSG #test :ca va ?
+[07-10-0123 at 18:02:45] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :ca va ?
+
+[07-10-0123 at 18:02:48] command from [localhost:55202]:
+PRIVMSG #test :ds
+[07-10-0123 at 18:02:48] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :ds
+
+[07-10-0123 at 18:02:51] command from [localhost:55202]:
+PRIVMSG #test :gds
+[07-10-0123 at 18:02:51] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :gds
+
+[07-10-0123 at 18:02:53] command from [localhost:55202]:
+PRIVMSG #test :gds
+[07-10-0123 at 18:02:53] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :gds
+
+[07-10-0123 at 18:02:56] command from [localhost:55202]:
+PRIVMSG #test :gds
+[07-10-0123 at 18:02:56] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :gds
+
+[07-10-0123 at 18:02:58] command from [localhost:55202]:
+PRIVMSG #test :g
+[07-10-0123 at 18:02:58] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :g
+
+[07-10-0123 at 18:03:01] command from [localhost:55202]:
+PRIVMSG #test :dsgh
+[07-10-0123 at 18:03:01] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :dsgh
+
+[07-10-0123 at 18:03:03] command from [localhost:55202]:
+PRIVMSG #test :sdh
+[07-10-0123 at 18:03:03] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :sdh
+
+[07-10-0123 at 18:03:06] command from [localhost:55202]:
+PRIVMSG #test :df
+[07-10-0123 at 18:03:06] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :df
+
+[07-10-0123 at 18:03:08] command from [localhost:55202]:
+PRIVMSG #test :jhfg
+[07-10-0123 at 18:03:08] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :jhfg
+
+[07-10-0123 at 18:03:11] command from [localhost:55202]:
+PRIVMSG #test :kmgf
+[07-10-0123 at 18:03:11] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :kmgf
+
+[07-10-0123 at 18:03:13] command from [localhost:55202]:
+PRIVMSG #test :m
+[07-10-0123 at 18:03:13] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :m
+
+[07-10-0123 at 18:03:16] command from [localhost:55202]:
+PRIVMSG #test :gfjm
+[07-10-0123 at 18:03:16] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :gfjm
+
+[07-10-0123 at 18:03:18] command from [localhost:55202]:
+PRIVMSG #test :fg
+[07-10-0123 at 18:03:18] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :fg
+
+[07-10-0123 at 18:03:21] command from [localhost:55202]:
+PRIVMSG #test :mfg
+[07-10-0123 at 18:03:21] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :mfg
+
+[07-10-0123 at 18:03:23] command from [localhost:55202]:
+PRIVMSG #test :mfg
+[07-10-0123 at 18:03:23] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #test :mfg
+
+[07-10-0123 at 18:03:28] command from [localhost:55202]:
+PING miniRC
+[07-10-0123 at 18:03:28] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:03:50] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:03:50] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:03:59] command from [localhost:55202]:
+QUIT :leaving
+[07-10-0123 at 18:03:59] reply from server miniRC to raph: 
+:apo!rsabbah@localhost QUIT :Quit: leaving
+
+[07-10-0123 at 18:03:59] closing connection to [localhost:55202] on socket 7
+[07-10-0123 at 18:04:05] new connection to [localhost:44304] on socket 7
+[07-10-0123 at 18:04:12] command from [localhost:44304]:
+PASS pwd
+[07-10-0123 at 18:04:21] command from [localhost:44304]:
+NICK apo
+[07-10-0123 at 18:04:44] command from [localhost:44304]:
+PRIVMSG raph yo
+
+[07-10-0123 at 18:04:44] reply from server miniRC to raph: 
+:apo!@localhost PRIVMSG raph :yo
+
+
+[07-10-0123 at 18:04:51] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:04:51] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:05:06] closing connection to [localhost:44304] on socket 7
+[07-10-0123 at 18:05:09] new connection to [localhost:54014] on socket 7
+[07-10-0123 at 18:05:09] command from [localhost:54014]:
+CAP LS
+[07-10-0123 at 18:05:09] command from [localhost:54014]:
+PASS pwd
+[07-10-0123 at 18:05:09] command from [localhost:54014]:
+NICK apo
+[07-10-0123 at 18:05:09] command from [localhost:54014]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:05:09] command from [localhost:54014]:
+MODE apo +i
+[07-10-0123 at 18:05:12] command from [localhost:54014]:
+PING miniRC
+[07-10-0123 at 18:05:12] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:05:17] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:17] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:18] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:18] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:18] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:18] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:19] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:19] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:19] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:19] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:22] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:22] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:24] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:24] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:27] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:27] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:29] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:29] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:32] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:32] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:34] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:34] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:37] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:37] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:39] command from [localhost:54014]:
+PRIVMSG raph :yo
+[07-10-0123 at 18:05:39] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :yo
+
+[07-10-0123 at 18:05:43] command from [localhost:54014]:
+PRIVMSG raph :1
+[07-10-0123 at 18:05:43] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :1
+
+[07-10-0123 at 18:05:44] command from [localhost:54014]:
+PRIVMSG raph :2
+[07-10-0123 at 18:05:44] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :2
+
+[07-10-0123 at 18:05:47] command from [localhost:54014]:
+PRIVMSG raph :3
+[07-10-0123 at 18:05:47] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :3
+
+[07-10-0123 at 18:05:49] command from [localhost:54014]:
+PRIVMSG raph :4
+[07-10-0123 at 18:05:49] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :4
+
+[07-10-0123 at 18:05:52] command from [localhost:54014]:
+PRIVMSG raph :5
+[07-10-0123 at 18:05:52] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :5
+
+[07-10-0123 at 18:05:52] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:05:52] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:05:56] command from [localhost:54014]:
+PRIVMSG raph :salut
+[07-10-0123 at 18:05:56] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :salut
+
+[07-10-0123 at 18:06:00] command from [localhost:54014]:
+PRIVMSG raph :salut
+[07-10-0123 at 18:06:00] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :salut
+
+[07-10-0123 at 18:06:13] command from [localhost:54014]:
+PING miniRC
+[07-10-0123 at 18:06:13] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:06:53] command from [localhost:50150]:
+PING miniRC
+[07-10-0123 at 18:06:53] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:07:01] command from [localhost:54014]:
+QUIT :leaving
+[07-10-0123 at 18:07:01] closing connection to [localhost:54014] on socket 7
+[07-10-0123 at 18:07:14] command from [localhost:50150]:
+QUIT :leaving
+[07-10-0123 at 18:07:14] closing connection to [localhost:50150] on socket 6
+[07-10-0123 at 18:09:12] server miniRC down
+[07-10-0123 at 18:11:14] server miniRC created
+[07-10-0123 at 18:11:14] server miniRC up
+[07-10-0123 at 18:11:24] new connection to [localhost:48754] on socket 6
+[07-10-0123 at 18:11:24] command from [localhost:48754]:
+CAP LS
+[07-10-0123 at 18:11:24] command from [localhost:48754]:
+PASS pwd
+[07-10-0123 at 18:11:24] command from [localhost:48754]:
+NICK apo
+[07-10-0123 at 18:11:24] command from [localhost:48754]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:11:24] command from [localhost:48754]:
+MODE apo +i
+[07-10-0123 at 18:11:27] command from [localhost:48754]:
+PING miniRC
+[07-10-0123 at 18:11:27] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:11:31] new connection to [localhost:34182] on socket 7
+[07-10-0123 at 18:11:31] command from [localhost:34182]:
+CAP LS
+[07-10-0123 at 18:11:31] command from [localhost:34182]:
+PASS pwd
+[07-10-0123 at 18:11:31] command from [localhost:34182]:
+NICK raph
+[07-10-0123 at 18:11:31] command from [localhost:34182]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:11:31] command from [localhost:34182]:
+MODE raph +i
+[07-10-0123 at 18:11:34] command from [localhost:34182]:
+PING miniRC
+[07-10-0123 at 18:11:34] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:11:36] command from [localhost:34182]:
+JOIN #c1
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@raph
+
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 18:11:36] command from [localhost:34182]:
+MODE #c1
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699377096
+
+[07-10-0123 at 18:11:36] command from [localhost:34182]:
+WHO #c1
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 18:11:36] command from [localhost:34182]:
+MODE #c1 b
+[07-10-0123 at 18:11:36] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 18:11:39] command from [localhost:48754]:
+JOIN #c1
+[07-10-0123 at 18:11:39] reply from server miniRC to raph: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 353 apo = #c1 :@raph apo
+
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 366 apo #c1 :End of /NAMES
+
+[07-10-0123 at 18:11:39] command from [localhost:48754]:
+MODE #c1
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 324 apo #c1 +
+
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 329 apo #c1 1699377096
+
+[07-10-0123 at 18:11:39] command from [localhost:48754]:
+WHO #c1
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 352 apo #c1 rsabbah localhost miniRC apo H :0 Raphael SABBAH
+
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 315 apo #c1 :End of /WHO list
+
+[07-10-0123 at 18:11:39] command from [localhost:48754]:
+MODE #c1 b
+[07-10-0123 at 18:11:39] reply from server miniRC to apo: 
+:miniRC 368 apo #c1 :End of Channel Ban List
+
+[07-10-0123 at 18:11:44] command from [localhost:48754]:
+PRIVMSG #c1 :dgds
+[07-10-0123 at 18:11:44] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :dgds
+
+[07-10-0123 at 18:11:44] command from [localhost:48754]:
+PRIVMSG #c1 :gds
+[07-10-0123 at 18:11:44] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :gds
+
+[07-10-0123 at 18:11:44] command from [localhost:48754]:
+PRIVMSG #c1 :gds
+[07-10-0123 at 18:11:44] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :gds
+
+[07-10-0123 at 18:11:45] command from [localhost:48754]:
+PRIVMSG #c1 :gds
+[07-10-0123 at 18:11:45] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :gds
+
+[07-10-0123 at 18:11:45] command from [localhost:48754]:
+PRIVMSG #c1 :g
+[07-10-0123 at 18:11:45] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :g
+
+[07-10-0123 at 18:11:47] command from [localhost:48754]:
+PRIVMSG #c1 :dsg
+[07-10-0123 at 18:11:47] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :dsg
+
+[07-10-0123 at 18:11:50] command from [localhost:48754]:
+PRIVMSG #c1 :sdgd
+[07-10-0123 at 18:11:50] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :sdgd
+
+[07-10-0123 at 18:11:52] command from [localhost:48754]:
+PRIVMSG #c1 :sg
+[07-10-0123 at 18:11:52] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :sg
+
+[07-10-0123 at 18:11:55] command from [localhost:48754]:
+PRIVMSG #c1 :ds
+[07-10-0123 at 18:11:55] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :ds
+
+[07-10-0123 at 18:11:57] command from [localhost:48754]:
+PRIVMSG #c1 :gds
+[07-10-0123 at 18:11:57] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :gds
+
+[07-10-0123 at 18:12:00] command from [localhost:48754]:
+PRIVMSG #c1 :gd
+[07-10-0123 at 18:12:00] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :gd
+
+[07-10-0123 at 18:12:02] command from [localhost:48754]:
+PRIVMSG #c1 :sg
+[07-10-0123 at 18:12:02] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :sg
+
+[07-10-0123 at 18:12:05] command from [localhost:48754]:
+PRIVMSG #c1 :sdg
+[07-10-0123 at 18:12:05] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :sdg
+
+[07-10-0123 at 18:12:07] command from [localhost:48754]:
+PRIVMSG #c1 :sd
+[07-10-0123 at 18:12:07] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :sd
+
+[07-10-0123 at 18:12:10] command from [localhost:48754]:
+PRIVMSG #c1 :gdsh
+[07-10-0123 at 18:12:10] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :gdsh
+
+[07-10-0123 at 18:12:12] command from [localhost:48754]:
+PRIVMSG #c1 :fdh
+[07-10-0123 at 18:12:12] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :fdh
+
+[07-10-0123 at 18:12:15] command from [localhost:48754]:
+PRIVMSG #c1 :fdjn
+[07-10-0123 at 18:12:15] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :fdjn
+
+[07-10-0123 at 18:12:18] new connection to [made-f0Ar3s9.clusters.42paris.fr:41594] on socket 8
+[07-10-0123 at 18:12:18] command from [made-f0Ar3s9.clusters.42paris.fr:41594]:
+PASS pwd
+[07-10-0123 at 18:12:18] command from [made-f0Ar3s9.clusters.42paris.fr:41594]:
+NICK miniBot
+[07-10-0123 at 18:12:23] new connection to [made-f0Ar3s9.clusters.42paris.fr:41598] on socket 9
+[07-10-0123 at 18:12:23] command from [made-f0Ar3s9.clusters.42paris.fr:41598]:
+PASS pwd
+[07-10-0123 at 18:12:23] command from [made-f0Ar3s9.clusters.42paris.fr:41598]:
+NICK miniBot
+[07-10-0123 at 18:12:23] reply from server miniRC to : 
+:miniRC 433  miniBot :Nickname is already in use
+
+[07-10-0123 at 18:12:25] closing connection to [made-f0Ar3s9.clusters.42paris.fr:41598] on socket 9
+[07-10-0123 at 18:12:27] closing connection to [made-f0Ar3s9.clusters.42paris.fr:41594] on socket 8
+[07-10-0123 at 18:12:28] command from [localhost:48754]:
+PING miniRC
+[07-10-0123 at 18:12:28] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:12:33] server miniRC down
+[07-10-0123 at 18:14:59] server miniRC created
+[07-10-0123 at 18:14:59] server miniRC up
+[07-10-0123 at 18:15:06] new connection to [localhost:42662] on socket 6
+[07-10-0123 at 18:15:06] command from [localhost:42662]:
+CAP LS
+[07-10-0123 at 18:15:06] command from [localhost:42662]:
+PASS pwd
+[07-10-0123 at 18:15:06] command from [localhost:42662]:
+NICK raph
+[07-10-0123 at 18:15:06] command from [localhost:42662]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:15:06] command from [localhost:42662]:
+MODE raph +i
+[07-10-0123 at 18:15:09] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:15:09] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:15:12] new connection to [localhost:42664] on socket 7
+[07-10-0123 at 18:15:12] command from [localhost:42664]:
+CAP LS
+[07-10-0123 at 18:15:12] command from [localhost:42664]:
+PASS pwd
+[07-10-0123 at 18:15:12] command from [localhost:42664]:
+NICK apo
+[07-10-0123 at 18:15:12] command from [localhost:42664]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:15:12] command from [localhost:42664]:
+MODE apo +i
+[07-10-0123 at 18:15:15] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:15:15] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:15:16] command from [localhost:42662]:
+JOIN #c1
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@raph
+
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 18:15:16] command from [localhost:42662]:
+MODE #c1
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699377316
+
+[07-10-0123 at 18:15:16] command from [localhost:42662]:
+WHO #c1
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 18:15:16] command from [localhost:42662]:
+MODE #c1 b
+[07-10-0123 at 18:15:16] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 18:15:19] command from [localhost:42662]:
+JOIN #c2
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c2
+
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:miniRC 353 raph = #c2 :@raph
+
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:miniRC 366 raph #c2 :End of /NAMES
+
+[07-10-0123 at 18:15:19] command from [localhost:42662]:
+MODE #c2
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:miniRC 324 raph #c2 +
+
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:miniRC 329 raph #c2 1699377319
+
+[07-10-0123 at 18:15:19] command from [localhost:42662]:
+WHO #c2
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:miniRC 352 raph #c2 rsabbah localhost miniRC raph H@ :0 Raphael SABBAH
+
+[07-10-0123 at 18:15:19] reply from server miniRC to raph: 
+:miniRC 315 raph #c2 :End of /WHO list
+
+[07-10-0123 at 18:15:21] command from [localhost:42662]:
+MODE #c2 b
+[07-10-0123 at 18:15:21] reply from server miniRC to raph: 
+:miniRC 368 raph #c2 :End of Channel Ban List
+
+[07-10-0123 at 18:16:02] command from [localhost:42664]:
+PRIVMSG #c1 ::Hello you!
+[07-10-0123 at 18:16:02] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 ::Hello you!
+
+[07-10-0123 at 18:16:02] command from [localhost:42664]:
+PRIVMSG #c2 ::Hello you!
+[07-10-0123 at 18:16:02] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c2 ::Hello you!
+
+[07-10-0123 at 18:16:02] command from [localhost:42664]:
+PRIVMSG yolo ::Hello you!
+[07-10-0123 at 18:16:02] reply from server miniRC to apo: 
+:miniRC 401 apo yolo :No such nick
+
+[07-10-0123 at 18:16:02] command from [localhost:42664]:
+PRIVMSG raph ::Hello you!
+[07-10-0123 at 18:16:02] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph ::Hello you!
+
+[07-10-0123 at 18:16:10] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:16:10] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:16:16] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:16:16] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:16:35] command from [localhost:42664]:
+PRIVMSG #c1 ::Hello you!
+[07-10-0123 at 18:16:35] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 ::Hello you!
+
+[07-10-0123 at 18:17:11] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:17:11] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:17:17] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:17:17] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:18:12] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:18:12] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:18:18] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:18:18] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:19:13] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:19:13] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:19:19] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:19:19] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:20:14] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:20:14] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:20:20] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:20:20] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:21:15] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:21:15] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:21:21] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:21:21] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:22:16] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:22:16] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:22:22] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:22:22] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:23:17] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:23:17] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:23:23] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:23:23] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:24:18] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:24:18] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:24:24] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:24:24] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:25:19] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:25:19] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:25:25] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:25:25] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:26:20] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:26:20] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:26:26] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:26:26] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:27:21] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:27:21] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:27:27] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:27:27] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:28:22] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:28:22] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:28:28] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:28:28] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:29:23] command from [localhost:42662]:
+PING miniRC
+[07-10-0123 at 18:29:23] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:29:29] command from [localhost:42664]:
+PING miniRC
+[07-10-0123 at 18:29:29] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:29:32] server miniRC down
+[07-10-0123 at 18:29:34] server miniRC created
+[07-10-0123 at 18:29:34] server miniRC up
+[07-10-0123 at 18:29:39] new connection to [localhost:56282] on socket 6
+[07-10-0123 at 18:29:39] command from [localhost:56282]:
+CAP LS
+[07-10-0123 at 18:29:39] command from [localhost:56282]:
+PASS pwd
+[07-10-0123 at 18:29:39] command from [localhost:56282]:
+NICK apo
+[07-10-0123 at 18:29:39] command from [localhost:56282]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:29:39] command from [localhost:56282]:
+MODE apo +i
+[07-10-0123 at 18:29:42] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:29:42] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:29:49] command from [localhost:56282]:
+JOIN #c1
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:apo!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 353 apo = #c1 :@apo
+
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 366 apo #c1 :End of /NAMES
+
+[07-10-0123 at 18:29:49] command from [localhost:56282]:
+MODE #c1
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 324 apo #c1 +
+
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 329 apo #c1 1699378189
+
+[07-10-0123 at 18:29:49] command from [localhost:56282]:
+WHO #c1
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 352 apo #c1 rsabbah localhost miniRC apo H@ :0 Raphael SABBAH
+
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 315 apo #c1 :End of /WHO list
+
+[07-10-0123 at 18:29:49] command from [localhost:56282]:
+MODE #c1 b
+[07-10-0123 at 18:29:49] reply from server miniRC to apo: 
+:miniRC 368 apo #c1 :End of Channel Ban List
+
+[07-10-0123 at 18:29:53] new connection to [localhost:35502] on socket 7
+[07-10-0123 at 18:29:53] command from [localhost:35502]:
+CAP LS
+[07-10-0123 at 18:29:53] command from [localhost:35502]:
+PASS pwd
+[07-10-0123 at 18:29:53] command from [localhost:35502]:
+NICK raph
+[07-10-0123 at 18:29:53] command from [localhost:35502]:
+USER rsabbah rsabbah localhost :Raphael SABBAH
+[07-10-0123 at 18:29:53] command from [localhost:35502]:
+MODE raph +i
+[07-10-0123 at 18:29:56] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:29:56] command from [localhost:35502]:
+JOIN #c1
+[07-10-0123 at 18:29:56] reply from server miniRC to apo: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:raph!rsabbah@localhost JOIN :#c1
+
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 353 raph = #c1 :@apo raph
+
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 366 raph #c1 :End of /NAMES
+
+[07-10-0123 at 18:29:56] command from [localhost:35502]:
+MODE #c1
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 324 raph #c1 +
+
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 329 raph #c1 1699378189
+
+[07-10-0123 at 18:29:56] command from [localhost:35502]:
+WHO #c1
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 352 raph #c1 rsabbah localhost miniRC raph H :0 Raphael SABBAH
+
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 315 raph #c1 :End of /WHO list
+
+[07-10-0123 at 18:29:56] command from [localhost:35502]:
+MODE #c1 b
+[07-10-0123 at 18:29:56] reply from server miniRC to raph: 
+:miniRC 368 raph #c1 :End of Channel Ban List
+
+[07-10-0123 at 18:30:14] command from [localhost:56282]:
+PRIVMSG #c1 :hello you
+[07-10-0123 at 18:30:14] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 :hello you
+
+[07-10-0123 at 18:30:14] command from [localhost:56282]:
+PRIVMSG raph :hello you
+[07-10-0123 at 18:30:14] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph :hello you
+
+[07-10-0123 at 18:30:26] command from [localhost:56282]:
+PRIVMSG #c1 ::hello you
+[07-10-0123 at 18:30:26] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG #c1 ::hello you
+
+[07-10-0123 at 18:30:26] command from [localhost:56282]:
+PRIVMSG raph ::hello you
+[07-10-0123 at 18:30:26] reply from server miniRC to raph: 
+:apo!rsabbah@localhost PRIVMSG raph ::hello you
+
+[07-10-0123 at 18:30:43] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:30:43] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:30:57] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:30:57] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:31:44] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:31:44] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:31:58] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:31:58] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:32:45] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:32:45] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:32:59] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:32:59] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:33:46] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:33:46] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:34:00] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:34:00] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:34:11] command from [localhost:35502]:
+PRIVMSG apo :DCC SEND server.log 2130706433 34021 108469
+[07-10-0123 at 18:34:11] reply from server miniRC to apo: 
+:raph!rsabbah@localhost PRIVMSG apo :DCC SEND server.log 2130706433 34021 108469
+
+[07-10-0123 at 18:34:47] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:34:47] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:35:01] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:35:01] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:35:48] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:35:48] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:35:49] new connection to [made-f0Ar3s9.clusters.42paris.fr:53006] on socket 8
+[07-10-0123 at 18:35:49] command from [made-f0Ar3s9.clusters.42paris.fr:53006]:
+PASS pwd
+[07-10-0123 at 18:35:49] command from [made-f0Ar3s9.clusters.42paris.fr:53006]:
+NICK miniBot
+[07-10-0123 at 18:36:02] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:36:02] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:36:13] command from [localhost:56282]:
+PRIVMSG miniBot :coucou
+[07-10-0123 at 18:36:13] reply from server miniRC to miniBot: 
+:apo!rsabbah@localhost PRIVMSG miniBot :coucou
+
+[07-10-0123 at 18:36:28] command from [localhost:56282]:
+PRIVMSG miniBot :42 hey
+[07-10-0123 at 18:36:28] reply from server miniRC to miniBot: 
+:apo!rsabbah@localhost PRIVMSG miniBot :42 hey
+
+[07-10-0123 at 18:36:29] closing connection to [made-f0Ar3s9.clusters.42paris.fr:53006] on socket 8
+[07-10-0123 at 18:36:30] command from [localhost:56282]:
+PRIVMSG miniBot :42 hello
+[07-10-0123 at 18:36:30] reply from server miniRC to apo: 
+:miniRC 401 apo miniBot :No such nick
+
+[07-10-0123 at 18:36:49] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:36:49] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:37:03] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:37:03] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:37:50] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:37:50] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:38:04] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:38:04] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:38:51] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:38:51] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:39:05] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:39:05] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:39:06] new connection to [made-f0Ar3s9.clusters.42paris.fr:54898] on socket 8
+[07-10-0123 at 18:39:06] command from [made-f0Ar3s9.clusters.42paris.fr:54898]:
+PASS pwd
+[07-10-0123 at 18:39:06] command from [made-f0Ar3s9.clusters.42paris.fr:54898]:
+NICK miniBot
+[07-10-0123 at 18:39:06] command from [made-f0Ar3s9.clusters.42paris.fr:54898]:
+JOIN #bot
+[07-10-0123 at 18:39:06] reply from server miniRC to miniBot: 
+:miniBot!@made-f0Ar3s9.clusters.42paris.fr JOIN :#bot
+
+[07-10-0123 at 18:39:06] reply from server miniRC to miniBot: 
+:miniRC 353 miniBot = #bot :@miniBot
+
+[07-10-0123 at 18:39:06] reply from server miniRC to miniBot: 
+:miniRC 366 miniBot #bot :End of /NAMES
+
+[07-10-0123 at 18:39:13] command from [localhost:56282]:
+PRIVMSG miniBot :salut
+[07-10-0123 at 18:39:13] reply from server miniRC to miniBot: 
+:apo!rsabbah@localhost PRIVMSG miniBot :salut
+
+[07-10-0123 at 18:39:17] command from [localhost:56282]:
+PRIVMSG miniBot :42 hello
+[07-10-0123 at 18:39:17] reply from server miniRC to miniBot: 
+:apo!rsabbah@localhost PRIVMSG miniBot :42 hello
+
+[07-10-0123 at 18:39:17] command from [made-f0Ar3s9.clusters.42paris.fr:54898]:
+PRIVMSG apo :Hey!
+[07-10-0123 at 18:39:17] reply from server miniRC to apo: 
+:miniBot!@made-f0Ar3s9.clusters.42paris.fr PRIVMSG apo :Hey!
+
+[07-10-0123 at 18:39:36] command from [localhost:56282]:
+PRIVMSG miniBot :42 ping
+[07-10-0123 at 18:39:36] reply from server miniRC to miniBot: 
+:apo!rsabbah@localhost PRIVMSG miniBot :42 ping
+
+[07-10-0123 at 18:39:36] command from [made-f0Ar3s9.clusters.42paris.fr:54898]:
+PRIVMSG apo :Pong!
+[07-10-0123 at 18:39:36] reply from server miniRC to apo: 
+:miniBot!@made-f0Ar3s9.clusters.42paris.fr PRIVMSG apo :Pong!
+
+[07-10-0123 at 18:39:52] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:39:52] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:39:54] command from [localhost:56282]:
+PRIVMSG miniBot :42 salut
+[07-10-0123 at 18:39:54] reply from server miniRC to miniBot: 
+:apo!rsabbah@localhost PRIVMSG miniBot :42 salut
+
+[07-10-0123 at 18:40:06] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:40:06] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:40:53] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:40:53] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:41:07] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:41:07] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:41:54] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:41:54] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:42:08] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:42:08] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:42:55] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:42:55] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:43:09] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:43:09] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:43:56] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:43:56] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:44:10] command from [localhost:35502]:
+PING miniRC
+[07-10-0123 at 18:44:10] reply from server miniRC to raph: 
+:miniRC PONG miniRC :raph
+
+[07-10-0123 at 18:44:57] command from [localhost:56282]:
+PING miniRC
+[07-10-0123 at 18:44:57] reply from server miniRC to apo: 
+:miniRC PONG miniRC :apo
+
+[07-10-0123 at 18:45:00] server miniRC down

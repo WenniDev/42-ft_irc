@@ -84,6 +84,8 @@ int TCP_IPv4::ASocket::receive(int flags) {
 				throw TCP_IPv4::Error("recv");
 		}
 		else {
+			if (buf[0] == '\0')
+				m_evFlags |= EPOLLHUP;
 			buf[nb] = '\0';
 			m_rdbuf += buf;
 			ret += nb;
@@ -122,6 +124,10 @@ bool TCP_IPv4::ASocket::extractData(std::string &dest, std::string sep) _NOEXCEP
 		return true;
 	}
 	return false;
+}
+
+bool TCP_IPv4::ASocket::connectionClosed() const _NOEXCEPT {
+	return (m_evFlags & EPOLLHUP);
 }
 
 const std::string &TCP_IPv4::ASocket::host() const _NOEXCEPT {

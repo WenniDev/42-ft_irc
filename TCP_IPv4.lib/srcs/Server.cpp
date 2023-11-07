@@ -48,6 +48,7 @@ void TCP_IPv4::Server::start(const char *port) {
 		hint.ai_family = AF_INET;
 		hint.ai_socktype = SOCK_STREAM;
 		hint.ai_protocol = IPPROTO_TCP;
+		hint.ai_flags = AI_PASSIVE;
 		if (getaddrinfo(NULL, port, &hint, &res) == -1)
 			throw TCP_IPv4::Error("getaddrinfo");
 		struct addrinfo *tmp = res;

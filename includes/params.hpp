@@ -64,6 +64,7 @@ typedef std::map<std::string, t_cmd> mapCmd;
 
 // generic
 #define ERR_NEEDMOREPARAMS		"461 :Not enough parameters\r\n"
+#define ERR_NOTREGISTERED		"451 :You have not registered\r\n"
 
 // operator
 #define ERR_PASSWDMISMATCH		"464 :Incorrect password\r\n"	

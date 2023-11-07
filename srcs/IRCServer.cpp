@@ -70,6 +70,11 @@ void	IRCServer::checkEvents()
 		// m_users[i]->m_socket->isWriteable() ? std::cout << " writeable" << std::endl : std::cout << "non writeable" << std::endl;
 		if (m_users[i]->m_socket->isReadable()) {
 			m_users[i]->m_socket->receive();
+			if (m_users[i]->m_socket->connectionClosed()) {
+				this->closeConnection(m_users[i]->m_socket);
+				removeUser(m_users[i]);
+				continue;
+			}
 			std::string buf;
 			while (!this->isdown() && !userRemoved && m_users[i]->m_socket->extractData(buf, CRLF)) {
 				this->log()	<< "command from " << "[" << m_users[i]->m_socket->host()
@@ -110,8 +115,22 @@ int	IRCServer::executeCommand(User *user, std::string cmd)
 		cmds["WHOIS"] = &IRCServer::whoisCmd;
 
 		mapCmd::const_iterator it = cmds.find(msg.m_cmd);
-		if (it != cmds.end())
-			(this->*(cmds[msg.m_cmd]))(user, msg);
+		if (it != cmds.end()) {
+			if (	msg.m_cmd == "PASS"
+					|| (user->m_authentified && msg.m_cmd == "NICK")
+					|| user->m_registered)
+				(this->*(cmds[msg.m_cmd]))(user, msg);
+			else {
+				if (!user->m_authentified && msg.m_cmd == "NICK")
+					writeToClient(user, m_name, buildReply(user, ERR_PASSWDMISMATCH));
+				else
+					writeToClient(user, m_name, buildReply(user, ERR_NOTREGISTERED));
+				user->m_socket->send();
+				closeConnection(user->m_socket);
+				removeUser(user);
+				throw IRCServer::UserRemoved();
+			}
+		}
 	}
 	catch (CmdError &e) {
 		writeToClient(user, m_name, e.what());
@@ -163,41 +182,58 @@ void IRCServer::addChannel(std::string name, std::string pwd, User *user)
 // Remove unauthentified user
 void IRCServer::removeUser(User *user)
 {
+	// From channels and invit list;
+	if (!user->m_nick.empty()) {
+		mapChannel::const_iterator it_chan = user->m_allChan.begin();
+		for (; it_chan != user->m_allChan.end(); it_chan++) {
+			it_chan->second->removeUser(user->m_nick);
+			it_chan->second->removeOps(user->m_nick);
+			if (it_chan->second->m_users.empty())
+				removeChannel(it_chan->first);
+		}
+		it_chan = user->m_invitChan.begin();
+		for (; it_chan != user->m_invitChan.end(); it_chan++) {
+			it_chan->second->removeInvit(user->m_nick);
+		}
+	}
+
 	// From IRC server
 	vecUser::iterator it = m_users.begin();
 	while (it != m_users.end() && (*it) != user)
 		it++;
+	if (!user->m_nick.empty())
+		m_mapUser.erase(user->m_nick);
 	delete user;
 	m_users.erase(it);
 }
 
-void IRCServer::removeUser(std::string nick)
-{
-	// From channels and invit list;
-	User *user = m_mapUser[nick];
-	mapChannel::const_iterator it_chan = user->m_allChan.begin();
-	for (; it_chan != user->m_allChan.end(); it_chan++) {
-		it_chan->second->removeUser(nick);
-		it_chan->second->removeOps(nick);
-		if (it_chan->second->m_users.empty())
-			removeChannel(it_chan->first);
-	}
-	it_chan = user->m_invitChan.begin();
-	for (; it_chan != user->m_invitChan.end(); it_chan++) {
-		it_chan->second->removeInvit(nick);
-	}
+// void IRCServer::removeUser(std::string nick)
+// {
+// 	// From channels and invit list;
+// 	User *user = m_mapUser[nick];
+// 	mapChannel::const_iterator it_chan = user->m_allChan.begin();
+// 	for (; it_chan != user->m_allChan.end(); it_chan++) {
+// 		it_chan->second->removeUser(nick);
+// 		it_chan->second->removeOps(nick);
+// 		if (it_chan->second->m_users.empty())
+// 			removeChannel(it_chan->first);
+// 	}
+// 	it_chan = user->m_invitChan.begin();
+// 	for (; it_chan != user->m_invitChan.end(); it_chan++) {
+// 		it_chan->second->removeInvit(nick);
+// 	}
 
-	// From IRC server
-	vecUser::iterator it = m_users.begin();
-	while (it != m_users.end() && (*it)->m_nick != nick)
-		it++;
-	if (it != m_users.end())
-	{
-		delete user;
-		m_mapUser.erase(nick);
-		m_users.erase(it);
-	}
-}
+// 	// From IRC server
+// 	vecUser::iterator it = m_users.begin();
+// 	while (it != m_users.end() && (*it)->m_nick != nick)
+// 		it++;
+// 	if (it != m_users.end())
+// 	{
+// 		delete user;
+// 		m_mapUser.erase(nick);
+// 		m_users.erase(it);
+// 	}
+// }
 
 // Remove a channel from its name
 void IRCServer::removeChannel(std::string name)

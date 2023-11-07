@@ -13,7 +13,7 @@ LIBDIR		=	$(PROJDIR)/TCP_IPv4.lib
 #               Compiler             #
 #------------------------------------#
 CC			=	c++
-CFLAGS		=	-Wall -Wextra -Werror -std=c++98 -fsanitize=address
+CFLAGS		=	-Wall -Wextra -Werror -std=c++98 -fsanitize=address -g
 INCLUDE		=	-I $(INCDIR)
 
 #------------------------------------#
