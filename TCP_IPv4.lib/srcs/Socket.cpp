@@ -38,6 +38,10 @@ int TCP_IPv4::Socket::fd() const _NOEXCEPT {
 	return (m_fd);
 }
 
+sockaddr TCP_IPv4::Socket::addr() const _NOEXCEPT {
+	return m_addr;
+}
+
 void TCP_IPv4::Socket::setNonBlock() {
 	if (fcntl(m_fd, F_SETFL, O_NONBLOCK) == -1)
 		throw TCP_IPv4::Error("fcntl");

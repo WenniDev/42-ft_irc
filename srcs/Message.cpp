@@ -44,16 +44,6 @@ Message::~Message()
 
 /************************* GETTERS *************************/
 
-std::string	Message::getMessage() const {
-	std::string msg;
-	if (!m_prefix.empty())
-		msg = m_prefix + " " + m_cmd;
-	else
-		msg = m_cmd;
-	if (m_args.size())
-		msg += " " + getArgs();
-	return msg;
-}
 
 std::string	Message::getArgs() const {
 	std::string args;
@@ -70,18 +60,6 @@ std::string	Message::getArgs() const {
 	return args;
 }
 
-/********************* UTILS FOR TESTING *******************/
-
-void Message::showMessage() const {
-	std::cout << "- prefix: " << m_prefix << std::endl;
-	std::cout << "- cmd: " << m_cmd << std::endl;
-	vecStr::const_iterator it = m_args.begin();
-	int i = 0;
-	for(; it != m_args.end(); it++) {
-		std::cout << "- arg" << i << ": " << *it << std::endl;
-		i++;
-	}
-}
 
 /************************* PARSING ************************/
 

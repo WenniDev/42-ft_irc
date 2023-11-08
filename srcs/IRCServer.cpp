@@ -57,7 +57,6 @@ IRCServer::~IRCServer()
 // Wait for events and parse commands
 void	IRCServer::checkEvents()
 {
-	//std::cout << std::endl <<  "....WAIT PASSAGE...." << std::endl;
 	m_socEvent.wait();
 	if (this->pendingConnection()) {
 		TCP_IPv4::ASocket *newASocket = this->newConnection();
@@ -66,8 +65,6 @@ void	IRCServer::checkEvents()
 	bool userRemoved;
 	for (size_t i = 0; i < m_users.size(); ++i) { 
 		userRemoved = 0;
-		// std::cout << "Socket of user " << m_users[i]->m_nick << ":";
-		// m_users[i]->m_socket->isWriteable() ? std::cout << " writeable" << std::endl : std::cout << "non writeable" << std::endl;
 		if (m_users[i]->m_socket->isReadable()) {
 			m_users[i]->m_socket->receive();
 			if (m_users[i]->m_socket->connectionClosed()) {
@@ -206,34 +203,6 @@ void IRCServer::removeUser(User *user)
 	delete user;
 	m_users.erase(it);
 }
-
-// void IRCServer::removeUser(std::string nick)
-// {
-// 	// From channels and invit list;
-// 	User *user = m_mapUser[nick];
-// 	mapChannel::const_iterator it_chan = user->m_allChan.begin();
-// 	for (; it_chan != user->m_allChan.end(); it_chan++) {
-// 		it_chan->second->removeUser(nick);
-// 		it_chan->second->removeOps(nick);
-// 		if (it_chan->second->m_users.empty())
-// 			removeChannel(it_chan->first);
-// 	}
-// 	it_chan = user->m_invitChan.begin();
-// 	for (; it_chan != user->m_invitChan.end(); it_chan++) {
-// 		it_chan->second->removeInvit(nick);
-// 	}
-
-// 	// From IRC server
-// 	vecUser::iterator it = m_users.begin();
-// 	while (it != m_users.end() && (*it)->m_nick != nick)
-// 		it++;
-// 	if (it != m_users.end())
-// 	{
-// 		delete user;
-// 		m_mapUser.erase(nick);
-// 		m_users.erase(it);
-// 	}
-// }
 
 // Remove a channel from its name
 void IRCServer::removeChannel(std::string name)
@@ -473,118 +442,5 @@ const char *IRCServer::CmdError::what() const _NOEXCEPT
 const char	*IRCServer::UserRemoved::what() const throw()
 {
 	return ("User has been removed from IRC Server");
-}
-
-/********************* UTILS FOR TESTS ******************/
-
-// void IRCServer::fonctionTest()
-// {
-// 	try {
-
-// 		ASocket *socket = NULL;
-
-// 		addUser("mark", "mark", socket);
-// 		addUser("sam", "sam", socket);
-// 		addUser("john", "john", socket);
-// 		addUser("bella", "bella", socket);
-		
-// 		showMapUsers();
-// 		showVecUsers();
-
-// 		removeUser("sam");
-// 		nickCmd(m_mapUser["bella"], "anne");
-		
-// 		showMapUsers();
-// 		showVecUsers();
-
-// 		joinCmd(m_mapUser["mark"], "#1", "pwd");
-// 		joinCmd(m_mapUser["mark"], "#2");
-// 		joinCmd(m_mapUser["mark"], "#3");
-// 		joinCmd(m_mapUser["john"], "#1", "pwd");
-
-// 		showMapChannels();
-// 		showvecChans();
-
-// 		showChannelsOfUser("mark");
-// 		showUsersOfChannel("#1");
-
-// 		partCmd(m_mapUser["mark"], "#1");
-// 		showChannelsOfUser("mark");
-// 		showUsersOfChannel("#2");
-
-// 	}
-// 	catch (CmdError & e) {
-// 		std::cerr << e.what() << std::endl;
-// 	}
-// }
-
-mapChannel IRCServer::getChannels() const
-{
-	return m_mapChan;
-}
-
-mapUser IRCServer::getUsers() const
-{
-	return m_mapUser;
-}
-
-void IRCServer::showMapUsers() const
-{
-	std::cout << "[USERS - MAP]:" << std::endl;
-	mapUser::const_iterator it = m_mapUser.begin();
-	for (; it != m_mapUser.end(); ++it)
-		std::cout << " Nick: " << it->first << ", User: " << it->second->m_user << ", Real: " << it->second->m_real << std::endl;
-	if (!m_mapUser.size())
-		std::cout << "     (empty)" << std::endl;
-}
-
-
-void IRCServer::showMapChannels() const
-{
-	std::cout << "[CHANNELS - MAP]:" << std::endl;
-	mapChannel::const_iterator it = m_mapChan.begin();
-	for (; it != m_mapChan.end(); it++)
-		std::cout << " Channel: " << it->first << std::endl;
-	if (!m_mapChan.size())
-		std::cout << "   (empty)" << std::endl;
-}
-
-void IRCServer::showVecUsers() const
-{
-	std::cout << "[USERS - VECTOR]:" << std::endl;
-	vecUser::const_iterator	it = m_users.begin();
-	for (; it != m_users.end(); ++it)
-		std::cout << " User: " << (*it)->m_nick << ", addr: " << (*it) << std::endl;
-}
-
-
-void IRCServer::showvecChans() const
-{
-	std::cout << "[CHANNELS - VECTOR]:" << std::endl;
-	vecChan::const_iterator it = m_channels.begin();
-	for (; it != m_channels.end(); ++it)
-		std::cout << " Channel: " << (*it)->m_name << ", addr: " << (*it)  << std::endl;
-}
-
-void IRCServer::showChannelsOfUser(std::string nick) const
-{
-	User *user = m_mapUser.at(nick);
-	
-	mapChannel::const_iterator it = user->m_allChan.begin();
-	std::cout << "[" << nick << "'s CHANNELS]: " << std::endl;
-	for (; it != user->m_allChan.end(); ++it)
-		std::cout << " " <<it->first << std::endl;
-
-}
-
-void IRCServer::showUsersOfChannel(std::string channel) const
-{
-	Channel *chan = m_mapChan.at(channel);
-	
-	vecUser::const_iterator it = chan->m_users.begin();
-	std::cout << "[" << channel << " USERS]:" << std::endl;
-	for (; it != chan->m_users.end(); ++it)
-		std::cout << " " << (*it)->m_nick << std::endl;
-
 }
 

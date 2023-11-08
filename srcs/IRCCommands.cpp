@@ -19,10 +19,6 @@ void	IRCServer::passCmd(User* user, Message& msg)
 void	IRCServer::nickCmd(User* user, Message& msg)
 {
 	// Parsing - throw exception
-	// if (!(user->m_authentified)) {
-	// 	Message emptyMsg;
-	// 	passCmd(user, emptyMsg);
-	// }
 	if (!msg.m_args.size())
 		throw CmdError(ERR_NONICKNAMEGIVEN, user);
 	checkNickFormat(msg.m_args[0], user);
@@ -391,8 +387,10 @@ void 	IRCServer::inviteCmd(User* user, Message& msg)
 		throw CmdError(ERR_CHANOPRIVSNEEDED, user, channel->m_name);
 
 	// Add to invit list
-	if (!channel->checkInvit(target->m_nick))
+	if (!channel->checkInvit(target->m_nick)) {
 		channel->addInvit(target);
+		target->m_invitChan[channel->m_name] = channel;
+	}
 
 	// Send confirmation to user, target and operators
 	writeToClient(user, m_name, buildReply(user, RPL_INVITING, target->m_nick + " " + channel->m_name));

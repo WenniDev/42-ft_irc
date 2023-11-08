@@ -52,6 +52,8 @@ namespace TCP_IPv4 {
 			//return the socket fd
 			int	fd() const _NOEXCEPT;
 
+			sockaddr addr() const _NOEXCEPT;
+
 			//return true if socket is readable
 			bool isReadable() const _NOEXCEPT;
 

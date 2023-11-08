@@ -8,12 +8,13 @@ INCDIR		=	$(PROJDIR)/includes
 OBJDIR		=	$(PROJDIR)/objs
 DEPDIR		=	$(PROJDIR)/.deps
 LIBDIR		=	$(PROJDIR)/TCP_IPv4.lib
+BOTDIR		=	$(PROJDIR)/bot
 
 #------------------------------------#
 #               Compiler             #
 #------------------------------------#
 CC			=	c++
-CFLAGS		=	-Wall -Wextra -Werror -std=c++98 -fsanitize=address -g
+CFLAGS		=	-Wall -Wextra -Werror -std=c++98
 INCLUDE		=	-I $(INCDIR)
 
 #------------------------------------#
@@ -29,6 +30,9 @@ LIBDEP		=	$(shell find $(LIBDIR)/srcs -type f -name '*'.cpp)
 #                Rules               #
 #------------------------------------#
 all : $(TARGET)
+
+bot : $(LIB)
+	@make -C $(BOTDIR)
 
 $(TARGET) : $(LIB) $(OBJS)
 	@$(CC) $(CFLAGS) $(INCLUDE) $^ -o $@ $(LIB)
@@ -49,13 +53,16 @@ clean :
 	@rm -rf $(OBJDIR)
 	@rm -rf $(DEPDIR)
 	@make clean -C $(LIBDIR)
+	@make clean -C $(BOTDIR)
 	@echo Cleaning $(OBJDIR) $(DEPDIR)
 
 fclean : clean
 	@make fclean -C $(LIBDIR)
+	@make fclean -C $(BOTDIR)
 	@rm -f $(TARGET)
+	@rm -f server.log
 	@echo Cleaning $(TARGET)
 
 re : fclean all
 
-.PHONY : all clean fclean re
+.PHONY : all clean fclean re bot

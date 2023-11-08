@@ -133,7 +133,6 @@ bool Channel::checkOps(std::string nick)
 bool Channel::checkInvit(std::string nick)
 {
 	vecUser::iterator it = m_invited.begin();
-	
 	while (it != m_invited.end() && (*it)->getNick() != nick)
 		it++;
 	if (it != m_invited.end())
