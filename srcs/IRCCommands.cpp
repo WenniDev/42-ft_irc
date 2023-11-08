@@ -470,9 +470,14 @@ void	IRCServer::modeCmd(User* user, Message& msg)
 					(reply.find('+') != std::string::npos) ? reply += "o" : reply += "+o";
 					reply_params = " " + msg.m_args[2];
 				}
+				//! invalid read
+				//TODO: fix invalid read case
 				else if (sub > add && !o) {
-					channel->removeOps(user->m_nick);
-					user->m_opsChan.erase(channel->m_name);
+					/* channel->removeOps(user->m_nick);
+					user->m_opsChan.erase(channel->m_name); */
+					//FIX
+					channel->removeOps(otherUser->m_nick);
+					otherUser->m_opsChan.erase(channel->m_name);
 					(reply.find('-') != std::string::npos) ? reply += "o" : reply += "-o";
 					reply_params += " " + msg.m_args[2];
 				}
