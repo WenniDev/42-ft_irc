@@ -463,21 +463,18 @@ void	IRCServer::modeCmd(User* user, Message& msg)
 					writeToClient(user, m_name, buildReply(user, ERR_USERNOTINCHANNEL, msg.m_args[2] + " " + channel->m_name));
 					continue;				
 				}
-				User *otherUser = m_mapUser[msg.m_args[2]];
+				User *target = m_mapUser[msg.m_args[2]];
 				if (add > sub && !o && !k && !l) {
-					channel->addOps(otherUser);
-					otherUser->m_opsChan[channel->m_name] = channel;
+					if (!channel->checkOps(target->getNick())) {
+						channel->addOps(target);
+						target->m_opsChan[channel->m_name] = channel;
+					}
 					(reply.find('+') != std::string::npos) ? reply += "o" : reply += "+o";
 					reply_params = " " + msg.m_args[2];
 				}
-				//! invalid read
-				//TODO: fix invalid read case
 				else if (sub > add && !o) {
-					/* channel->removeOps(user->m_nick);
-					user->m_opsChan.erase(channel->m_name); */
-					//FIX
-					channel->removeOps(otherUser->m_nick);
-					otherUser->m_opsChan.erase(channel->m_name);
+					channel->removeOps(target->m_nick);
+					target->m_opsChan.erase(channel->m_name);
 					(reply.find('-') != std::string::npos) ? reply += "o" : reply += "-o";
 					reply_params += " " + msg.m_args[2];
 				}
@@ -503,7 +500,6 @@ void	IRCServer::modeCmd(User* user, Message& msg)
 					}
 					else if (std::atoi(msg.m_args[2].c_str()) > 0) {
 						channel->m_maxUsers = std::atoi(msg.m_args[2].c_str());
-						//std::cout << std::atoi(msg.m_args[2].c_str()) << std::endl;
 						(reply.find('+') != std::string::npos) ? reply += "l" : reply += "+l";
 						reply_params = " " + msg.m_args[2];
 					}
