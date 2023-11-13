@@ -507,7 +507,8 @@ void	IRCServer::modeCmd(User* user, Message& msg)
 				else if (sub > add && !l) {
 					std::stringstream maxStr;
 					maxStr << channel->m_maxUsers;
-					reply_params += " " + maxStr.str();
+					if (channel->m_maxUsers != NONE)
+						reply_params += " " + maxStr.str();
 					channel->m_maxUsers = NONE;
 					(reply.find('-') != std::string::npos) ? reply += "l" : reply += "-l";
 				}

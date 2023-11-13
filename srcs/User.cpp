@@ -7,6 +7,7 @@ User::User(ASocket *socket)
 	m_socket = socket;
 	this->m_servOps = 0;
 	this->m_authentified = 0;
+	this->m_registered = 0;
 }
 
 User::User(const User & src)
@@ -21,6 +22,7 @@ User & User::operator=(const User & src)
 	this->m_real = src.m_real;
 	this->m_socket = src.m_socket;
 	this->m_authentified = src.m_authentified;
+	this->m_registered = src.m_registered;
 	this->m_servOps = src.m_servOps;
 	this->m_allChan = src.m_allChan;
 	this->m_opsChan = src.m_opsChan;
