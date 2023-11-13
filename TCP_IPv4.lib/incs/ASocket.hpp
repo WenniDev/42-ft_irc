@@ -38,6 +38,8 @@ namespace TCP_IPv4 {
 			/*               Methods              */
 			/*------------------------------------*/
 
+			void connect(sockaddr);
+
 			/**
 			 * @brief send the content of m_wtbuf to m_fd consuming the 
 			 * readable event and clearing the m_wtbuf.
