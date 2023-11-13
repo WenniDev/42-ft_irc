@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Bot.cpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jopadova <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: avast <avast@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 16:49:07 by jopadova          #+#    #+#             */
-/*   Updated: 2023/11/08 14:18:49 by jopadova         ###   ########.fr       */
+/*   Updated: 2023/11/13 11:34:42 by avast            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,7 @@ Bot::exec_command(std::string cmd, std::string arg) {
 			if (cmd == "stop") {
 				this->set_status(OFFLINE);
 				this->send_cmd("QUIT :leaving");
+				return;
 			}
 			return Bot::send_cmd(Bot::commands[i]->execute(arg));
 		}
