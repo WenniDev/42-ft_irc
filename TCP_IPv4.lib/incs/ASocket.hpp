@@ -38,7 +38,7 @@ namespace TCP_IPv4 {
 			/*               Methods              */
 			/*------------------------------------*/
 
-			void connect(sockaddr);
+			void connect(sockaddr *);
 
 			/**
 			 * @brief send the content of m_wtbuf to m_fd consuming the 

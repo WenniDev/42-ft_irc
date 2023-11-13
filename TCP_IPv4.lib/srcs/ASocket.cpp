@@ -50,13 +50,14 @@ TCP_IPv4::ASocket &TCP_IPv4::ASocket::operator=(const ASocket &other) {
 /*               Methods              */
 /*------------------------------------*/
 
-void TCP_IPv4::ASocket::connect(sockaddr serv_addr) {
-	sockelen_t addr_len = sizeof(serv_addr);
+void TCP_IPv4::ASocket::connect(sockaddr *serv_addr) {
+	socklen_t addr_len = sizeof(*serv_addr);
 if ((m_fd = ::socket(AF_INET, SOCK_STREAM, IPPROTO_TCP)) == -1)
 		throw TCP_IPv4::Error("socket");
-	if (::connect(m_fd, &serv_addr, &addr_len) == -1)
+	if (::connect(m_fd, serv_addr, addr_len) == -1)
 		throw TCP_IPv4::Error("connect");
-	m_addr = serv_addr;
+	m_evFlags |= EPOLLIN | EPOLLOUT;
+	m_addr = *serv_addr;
 }
 
 int TCP_IPv4::ASocket::send() {

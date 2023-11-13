@@ -6,7 +6,7 @@
 /*   By: avast <avast@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 16:49:07 by jopadova          #+#    #+#             */
-/*   Updated: 2023/11/13 11:42:02 by avast            ###   ########.fr       */
+/*   Updated: 2023/11/13 12:18:19 by avast            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ Bot::Bot(int port, std::string addr) {
 
 void
 Bot::init() {
+	::memset(&serv_addr, 0, sizeof(serv_addr));
 	serv_addr.sin_family = AF_INET;
 	serv_addr.sin_port = htons(this->listening_port);
 
@@ -75,18 +76,13 @@ Bot::exec_command(std::string cmd, std::string arg) {
 }
 
 void
-Bot::start(std::string password) {
-	while (connect(psock.fd(), (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
-	{
-		std::cerr << ::strerror(errno) << std::endl;
-		std::cerr << "Connection failed, retry in 5 secondes..." << std::endl;
-		sleep(5);
-	}
+Bot::start(std::string password) {	
+	asock = new TCP_IPv4::ASocket();
 
-	asock = new TCP_IPv4::ASocket(dup(psock.fd()), psock.addr());
+	asock->connect(reinterpret_cast<sockaddr*>(&serv_addr));
 
 	asock->setNonBlock();
-	this->event.add(this->asock, EPOLLIN | EPOLLHUP);
+	this->event.add(this->asock, EPOLLIN | EPOLLHUP | EPOLLOUT);
 	std::cout << "start() connection established" << std::endl;
 	this->status = CONNECTED;
 	
@@ -169,7 +165,7 @@ Bot::send_cmd(std::string cmd) {
 	
 	std::string msg = cmd + "\r\n";
 
-	if (send(psock.fd(), msg.c_str(), msg.size(), 0) < 0)
+	if (send(asock->fd(), msg.c_str(), msg.size(), 0) < 0)
 		throw Bot::Error("Cannot send commands");
 	
 	std::cout << "send_cmd() cmd: '" << cmd << "' sent" << std::endl;
@@ -181,7 +177,7 @@ Bot::get_msg() {
 	char buff[1025];
 	int nb;
 
-	while ((nb = recv(psock.fd(), &buff, 1024, 0)) > 0) {
+	while ((nb = recv(asock->fd(), &buff, 1024, 0)) > 0) {
 		buff[nb] = '\0';
 		res += buff;
 	}
